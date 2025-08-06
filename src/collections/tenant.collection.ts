@@ -30,6 +30,10 @@ const TENANT_COLLECTIONS = {
   // Setting Management Collections
   SETTING_COLLECTION_NAME: "setting",
   SETTING_REPOSITORY_NAME: "settings",
+
+  // Refresh Token Management Collections
+  REFRESH_TOKEN_COLLECTION_NAME: "refresh_token",
+  REFRESH_TOKEN_REPOSITORY_NAME: "refresh_tokens",
 };
 
 export default TENANT_COLLECTIONS;
