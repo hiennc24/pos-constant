@@ -1,0 +1,47 @@
+{
+  "name": "@hiennc24/pos-constant",
+  "version": "1.0.0",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "clean": "rimraf lib",
+    "prepare": "npm run clean && npm run build",
+    "prepublishOnly": "npm run build",
+    "migrate": "node scripts/migrate-collections.js",
+    "test:performance": "ts-node src/scripts/performance-test.ts",
+    "validate": "ts-node -e \"import { serviceRegistry } from './src'; console.log(serviceRegistry.generateHealthReport());\"",
+    "stats": "ts-node -e \"import { serviceRegistry } from './src'; console.log(JSON.stringify(serviceRegistry.getStatistics(), null, 2));\"",
+    "migrate:legacy": "ts-node -e \"import { LegacyServiceMigrator } from './src/migration/legacy-migrator'; import legacyData from './src/service.constant.json'; const migrated = LegacyServiceMigrator.migrateLegacyRegistry(legacyData); console.log(LegacyServiceMigrator.generateMigrationReport(legacyData, migrated));\""
+  },
+  "files": [
+    "lib",
+    "LICENSE",
+    "README.md"
+  ],
+  "keywords": [
+    "pos-constant-project",
+    "typescript"
+  ],
+  "description": "",
+  "author": "Hien Nguyen",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hiennc24/pos-constant.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hiennc24/pos-constant.git/issues"
+  },
+  "homepage": "https://github.com/hiennc24/pos-constant.git#readme",
+  "devDependencies": {
+    "@types/node": "^24.1.0",
+    "rimraf": "5.0.6",
+    "ts-node": "10.9.2",
+    "typescript": "^5.5.4"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  }
+}
