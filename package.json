@@ -1,6 +1,6 @@
 {
-  "name": "@hiennc24/constant",
-  "version": "1.3.14",
+  "name": "@hiennc24/pos-constant",
+  "version": "1.0.1",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "scripts": {
@@ -15,7 +15,7 @@
     "README.md"
   ],
   "keywords": [
-    "action-constant-project",
+    "pos-constant-project",
     "typescript"
   ],
   "description": "",
@@ -23,13 +23,14 @@
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hiennc24/moleculer-action-constants.git"
+    "url": "git+https://github.com/hiennc24/pos-constant.git"
   },
   "bugs": {
-    "url": "https://github.com/hiennc24/moleculer-action-constants.git/issues"
+    "url": "https://github.com/hiennc24/pos-constant.git/issues"
   },
-  "homepage": "https://github.com/hiennc24/moleculer-action-constants.git#readme",
+  "homepage": "https://github.com/hiennc24/pos-constant.git#readme",
   "devDependencies": {
+    "@types/node": "^24.1.0",
     "rimraf": "5.0.6",
     "ts-node": "10.9.2",
     "typescript": "^5.5.4"

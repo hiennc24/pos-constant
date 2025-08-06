@@ -5,7 +5,7 @@
     "module": "commonjs",
     "moduleResolution": "node",
     "pretty": false,
-    "target": "es6",
+    "target": "es2017",
     "outDir": "lib",
     "baseUrl": "src",
     "declaration": true,
