@@ -8,7 +8,11 @@
 /**
  * Business Domain Types
  */
-export type BusinessDomain = "SVC_TENANT";
+export type BusinessDomain =
+  | "SVC_TENANT"
+  | "SVC_AUTH_AUTHENTICATIONS"
+  | "SVC_AUTH_AUTHORIZATIONS_TENANT_ROLE"
+  | "SVC_AUTH_ACCOUNTS";
 // | "SVC_ACCOUNT"
 // | "SVC_GIT_PROJECT"
 // | "SVC_ROLE"
