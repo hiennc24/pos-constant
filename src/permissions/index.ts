@@ -15,7 +15,8 @@ import { SVC_TENANT_PERMISSIONS } from "./tenant.permissions";
  * Contains all permissions organized by domain.
  * This provides a clean, type-safe interface for accessing permissions.
  */
-export const PERMISSIONS: PermissionsRegistry = {
+// export const PERMISSIONS: PermissionsRegistry = {
+export const PERMISSIONS = {
   SVC_TENANT: SVC_TENANT_PERMISSIONS,
   // Placeholder domains for future expansion
   // SVC_ACCOUNT: {} as const,
