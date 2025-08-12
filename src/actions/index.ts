@@ -7,6 +7,11 @@
 
 import { ActionsRegistry } from "../types";
 import { SVC_TENANT_ACTIONS } from "./tenant.actions";
+import {
+  SVC_AUTH_AUTHENTICATIONS,
+  SVC_AUTH_AUTHORIZATIONS_TENANT_ROLE,
+  SVC_AUTH_ACCOUNTS,
+} from "./auth.actions";
 /**
  * Actions Registry
  *
@@ -15,6 +20,9 @@ import { SVC_TENANT_ACTIONS } from "./tenant.actions";
  */
 export const ACTIONS: ActionsRegistry = {
   SVC_TENANT: SVC_TENANT_ACTIONS,
+  SVC_AUTH_AUTHENTICATIONS: SVC_AUTH_AUTHENTICATIONS,
+  SVC_AUTH_AUTHORIZATIONS_TENANT_ROLE: SVC_AUTH_AUTHORIZATIONS_TENANT_ROLE,
+  SVC_AUTH_ACCOUNTS: SVC_AUTH_ACCOUNTS,
 };
 
 // Individual domain exports for direct access
