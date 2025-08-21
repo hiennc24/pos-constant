@@ -51,6 +51,12 @@ export const COLLECTIONS = {
   // Business Management Collections
   BUSINESS_COLLECTION_NAME: "business",
   BUSINESS_REPOSITORY_NAME: "businesses",
+
+  GROUP_COLLECTION_NAME: "partner_group",
+  GROUP_REPOSITORY_NAME: "partner_groups",
+
+  PARTNER_COLLECTION_NAME: "partner",
+  PARTNER_REPOSITORY_NAME: "partners",
 } as const;
 
 // Type exports
