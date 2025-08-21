@@ -57,6 +57,21 @@ export const COLLECTIONS = {
 
   PARTNER_COLLECTION_NAME: "partner",
   PARTNER_REPOSITORY_NAME: "partners",
+
+  DEPARTMENT_COLLECTION_NAME: "department",
+  DEPARTMENT_REPOSITORY_NAME: "departments",
+
+  POSITION_COLLECTION_NAME: "position",
+  POSITION_REPOSITORY_NAME: "positions",
+
+  ADMINISTRATION_ITEMS_COLLECTION_NAME: "administration_item",
+  ADMINISTRATION_ITEMS_REPOSITORY_NAME: "administration_items",
+
+  CUSTOMER_COLLECTION_NAME: "customer",
+  CUSTOMER_REPOSITORY_NAME: "customers",
+
+  GROUP_LABEL_COLLECTION_NAME: "group_label",
+  GROUP_LABEL_REPOSITORY_NAME: "group_labels",
 } as const;
 
 // Type exports
