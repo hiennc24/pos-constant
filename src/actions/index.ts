@@ -7,6 +7,7 @@
 
 import { ActionsRegistry } from "../types";
 import { SVC_TENANT_ACTIONS } from "./tenant.actions";
+import { SVC_PARTNERS, SVC_PARTNER_GROUPS } from "./masterData.actions";
 import {
   SVC_AUTH_AUTHENTICATIONS,
   SVC_AUTH_AUTHORIZATIONS_TENANT_ROLE,
@@ -23,6 +24,8 @@ export const ACTIONS: ActionsRegistry = {
   SVC_AUTH_AUTHENTICATIONS: SVC_AUTH_AUTHENTICATIONS,
   SVC_AUTH_AUTHORIZATIONS_TENANT_ROLE: SVC_AUTH_AUTHORIZATIONS_TENANT_ROLE,
   SVC_AUTH_ACCOUNTS: SVC_AUTH_ACCOUNTS,
+  SVC_PARTNERS: SVC_PARTNERS,
+  SVC_PARTNER_GROUPS: SVC_PARTNER_GROUPS,
 };
 
 // Individual domain exports for direct access
