@@ -5,10 +5,6 @@
  * organized by domain for easy access and type safety.
  */
 
-import { PermissionsRegistry } from "../types";
-// import { BUSINESS_PERMISSIONS } from "./business.permissions";
-import { SVC_TENANT_PERMISSIONS } from "./tenant.permissions";
-
 /**
  * Permissions Registry
  *
