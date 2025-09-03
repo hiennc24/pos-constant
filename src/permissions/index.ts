@@ -65,6 +65,26 @@ export const PERMISSIONS = {
     MIGRATE_DATA: "system:tenant:migrate_data",
   },
 
+  SYSTEM_ACCOUNTS: {
+    CREATE: "system_management:accounts:create",
+    READ: "system_management:accounts:read",
+    LIST: "system_management:accounts:list",
+    UPDATE: "system_management:accounts:update",
+    BULK_DELETE: "system_management:accounts:bulk_delete",
+    DELETE: "system_management:accounts:delete",
+    UPDATE_STATUS: "system_management:accounts:update_status",
+    RESEND_CONFIRM: "auth:accounts:mail:resend",
+  },
+
+  SYSTEM_ROLES: {
+    CREATE: "system_management:roles:create",
+    READ: "system_management:accounts:read",
+    LIST: "system_management:roles:list",
+    UPDATE: "system_management:roles:update",
+    BULK_DELETE: "system_management:roles:bulk_delete",
+    DELETE: "system_management:roles:delete",
+  },
+
   // KaPOS Permissions
   SALE_ORDERS: {
     CREATE: "kapos:sales:sale_orders:create",
