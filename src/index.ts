@@ -13,6 +13,4 @@ export { COLLECTIONS } from "./collections";
 // Individual Domain Exports for Direct Access
 export { SVC_TENANT_ACTIONS } from "./actions/tenant.actions";
 
-export { SVC_TENANT_PERMISSIONS } from "./permissions/tenant.permissions";
-
 export { SVC_TENANT_COLLECTIONS } from "./collections/tenant.collections";
