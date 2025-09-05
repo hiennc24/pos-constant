@@ -72,6 +72,22 @@ export const COLLECTIONS = {
 
   GROUP_LABEL_COLLECTION_NAME: "groupLabel",
   GROUP_LABEL_REPOSITORY_NAME: "group_labels",
+
+  // danh mục tiền tệ
+  CURRENCY_COLLECTION_NAME: "currency",
+  CURRENCY_REPOSITORY_NAME: "currencies",
+
+  // Danh mục quốc gia
+  COUNTRY_COLLECTION_NAME: "country",
+  COUNTRY_REPOSITORY_NAME: "countries",
+
+  // Danh mục đơn vị tính
+  UNIT_COLLECTION_NAME: "unit",
+  UNIT_REPOSITORY_NAME: "units",
+
+  // Danh mục chứng từ
+  VOUCHERTYPE_COLLECTION_NAME: "voucherType",
+  VOUCHERTYPE_REPOSITORY_NAME: "voucher_types",
 } as const;
 
 // Type exports
