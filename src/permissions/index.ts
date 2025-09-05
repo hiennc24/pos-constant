@@ -40,6 +40,42 @@ export const PERMISSIONS = {
     VIEW: "master_data:products:view",
   },
 
+  // Master Data Currencies Permissions
+  CURRENCIES: {
+    LIST: "master_data:currencies:list",
+    CREATE: "master_data:currencies:create",
+    UPDATE: "master_data:currencies:update",
+    DELETE: "master_data:currencies:delete",
+    VIEW: "master_data:currencies:view",
+  },
+
+  // Master Data Countries Permissions
+  COUNTRIES: {
+    LIST: "master_data:countries:list",
+    CREATE: "master_data:countries:create",
+    UPDATE: "master_data:countries:update",
+    DELETE: "master_data:countries:delete",
+    VIEW: "master_data:countries:view",
+  },
+
+  // Master Data Units Permissions
+  UNITS: {
+    LIST: "master_data:units:list",
+    CREATE: "master_data:units:create",
+    UPDATE: "master_data:units:update",
+    DELETE: "master_data:units:delete",
+    VIEW: "master_data:units:view",
+  },
+
+  // Master Data Voucher_Types Permissions
+  VOUCHER_TYPES: {
+    LIST: "master_data:voucher_types:list",
+    CREATE: "master_data:voucher_types:create",
+    UPDATE: "master_data:voucher_types:update",
+    DELETE: "master_data:voucher_types:delete",
+    VIEW: "master_data:voucher_types:view",
+  },
+
   REPORTS: {
     VIEW: "analytics:reports:view",
     EXPORT: "analytics:reports:export",
