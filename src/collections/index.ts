@@ -53,6 +53,12 @@ const COLLECTIONS = {
   EMPLOYEE_COLLECTION_NAME: "employee",
   EMPLOYEE_REPOSITORY_NAME: "employees",
 
+  DEPARTMENT_COLLECTION_NAME: "department",
+  DEPARTMENT_REPOSITORY_NAME: "departments",
+
+  POSITION_COLLECTION_NAME: "position",
+  POSITION_REPOSITORY_NAME: "positions",
+
   // Business Management Collections
   BUSINESS_COLLECTION_NAME: "business",
   BUSINESS_REPOSITORY_NAME: "businesses",
@@ -62,12 +68,6 @@ const COLLECTIONS = {
 
   PARTNER_COLLECTION_NAME: "partner",
   PARTNER_REPOSITORY_NAME: "partners",
-
-  DEPARTMENT_COLLECTION_NAME: "department",
-  DEPARTMENT_REPOSITORY_NAME: "departments",
-
-  POSITION_COLLECTION_NAME: "position",
-  POSITION_REPOSITORY_NAME: "positions",
 
   ADMINISTRATION_ITEMS_COLLECTION_NAME: "administrationItem",
   ADMINISTRATION_ITEMS_REPOSITORY_NAME: "administration_items",
