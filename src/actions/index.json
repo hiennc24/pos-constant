@@ -9,7 +9,8 @@
       "ACTION_GET_TENANTS": "ACTION_GET_LIST",
       "ACTION_UPDATE_MANY": "ACTION_UPDATE_MANY",
       "ACTION_DELETE_MANY": "ACTION_DELETE_MANY",
-      "ACTION_GET_DOMAIN_BY_TAX_CODE": "ACTION_GET_DOMAIN_BY_TAX_CODE"
+      "ACTION_GET_DOMAIN_BY_TAX_CODE": "ACTION_GET_DOMAIN_BY_TAX_CODE",
+      "ACTION_GET_TENANT_INFO_BY_DOMAIN": "ACTION_GET_TENANT_INFO_BY_DOMAIN"
     }
   },
   "SVC_TENANT_ACCOUNTS": {
@@ -144,5 +145,24 @@
       "ACTION_RESEND_EMAIL_CONFIRM": "ACTION_RESEND_EMAIL_CONFIRM",
       "ACTION_SEND_EMAIL_DEACTIVATED": "ACTION_SEND_EMAIL_DEACTIVATED"
     }
+  },
+  "COMMON_METHODS": {
+    "FIND_ONE_AND_UPDATE": "_findOneAndUpdate",
+    "COUNT_DOCUMENTS": "_countDocuments",
+    "FIND_AND_POPULATE": "_findAndPopulate",
+    "UPDATE_BY_ID": "_updateById",
+    "DELETE_BY_ID": "_deleteById",
+    "INSERT_MANY": "_insertMany",
+    "DELETE_MANY": "_deleteMany",
+    "FIND_CURSOR": "_findCursor",
+    "UPDATE_MANY": "_updateMany",
+    "UPDATE_ONE": "_updateOne",
+    "BULK_WRITE": "_bulkWrite",
+    "AGGREGATE": "_aggregate",
+    "POPULATE": "_populate",
+    "FIND_ONE": "_findOne",
+    "FIND_ALL": "_findAll",
+    "CREATE": "_create",
+    "FIND": "_find"
   }
 }

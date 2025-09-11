@@ -50,8 +50,8 @@ const COLLECTIONS = {
   COMMON_REPOSITORY_NAME: "commons",
 
   // Core Management Collections
-  EMPLOYEE_REPOSITORY_NAME: "employees",
   EMPLOYEE_COLLECTION_NAME: "employee",
+  EMPLOYEE_REPOSITORY_NAME: "employees",
 
   // Business Management Collections
   BUSINESS_COLLECTION_NAME: "business",
