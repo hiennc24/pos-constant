@@ -274,5 +274,65 @@
     "LIST": "kapos:settings:bussiness:print_templates:list",
     "READ": "kapos:settings:bussiness:print_templates:read",
     "UPDATE": "kapos:settings:bussiness:print_templates:update"
+  },
+
+  "DEPARTMENTS": {
+    "LIST": "kapos:departments:list",
+    "CREATE": "kapos:departments:create",
+    "UPDATE": "kapos:departments:update",
+    "DELETE": "kapos:departments:delete",
+    "VIEW": "kapos:departments:view"
+  },
+
+  "ORGANIZATION": {
+    "LIST": "kapos:organization:list",
+    "CREATE": "kapos:organization:create",
+    "UPDATE": "kapos:organization:update",
+    "DELETE": "kapos:organization:delete",
+    "VIEW": "kapos:organization:view"
+  },
+
+  "ORG_SETTINGS": {
+    "LIST": "kapos:org_settings:list",
+    "CREATE": "kapos:org_settings:create",
+    "UPDATE": "kapos:org_settings:update",
+    "DELETE": "kapos:org_settings:delete",
+    "VIEW": "kapos:org_settings:view"
+  },
+  
+  "POSITIONS": {
+    "LIST": "kapos:positions:list",
+    "CREATE": "kapos:positions:create",
+    "UPDATE": "kapos:positions:update",
+    "DELETE": "kapos:positions:delete",
+    "VIEW": "kapos:positions:view"
+  },
+  "EMPLOYEES": {
+    "LIST": "kapos:employees:list",
+    "CREATE": "kapos:employees:create",
+    "UPDATE": "kapos:employees:update",
+    "DELETE": "kapos:employees:delete",
+    "VIEW": "kapos:employees:view"
+  },
+  "EMPLOYEE_CHANGE_HISTORIES": {
+    "LIST": "kapos:employee_change_histories:list",
+    "CREATE": "kapos:employee_change_histories:create",
+    "UPDATE": "kapos:employee_change_histories:update",
+    "DELETE": "kapos:employee_change_histories:delete",
+    "VIEW": "kapos:employee_change_histories:view"
+  },
+  "EMPLOYEE_HISTORIES": {
+    "LIST": "kapos:employee_histories:list",
+    "CREATE": "kapos:employee_histories:create",
+    "UPDATE": "kapos:employee_histories:update",
+    "DELETE": "kapos:employee_histories:delete",
+    "VIEW": "kapos:employee_histories:view"
+  },
+  "EMPLOYEE_SETTINGS": {
+    "LIST": "kapos:employee_settings:list",
+    "CREATE": "kapos:employee_settings:create",
+    "UPDATE": "kapos:employee_settings:update",
+    "DELETE": "kapos:employee_settings:delete",
+    "VIEW": "kapos:employee_settings:view"
   }
 }
