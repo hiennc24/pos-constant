@@ -1,16 +1,27 @@
-/**
- * POS Constants - Main Package Export
- *
- * High-performance, type-safe constants library for POS applications.
- * This package provides simple, fast access to actions, permissions, and collections.
- */
+import PERMISSIONS from "./permissions/index.json";
+import ACTIONS from "./actions/index.json";
 
-// Exports all actions, permissions, and collections
-export { ACTIONS } from "./actions";
-export { PERMISSIONS } from "./permissions";
-export { COLLECTIONS } from "./collections";
+export default {
+  PERMISSIONS,
+  ACTIONS,
+};
 
-// Individual Domain Exports for Direct Access
-export { SVC_TENANT_ACTIONS } from "./actions/tenant.actions";
+export type ServiceBrokerConstantType = {
+  [K in keyof typeof ACTIONS]: (typeof ACTIONS)[K];
+};
 
-export { SVC_TENANT_COLLECTIONS } from "./collections/tenant.collections";
+export type PermissionsConstantType = {
+  [K in keyof typeof PERMISSIONS]: (typeof PERMISSIONS)[K];
+};
+
+export { default as COLLECTIONS, CollectionsConstantType } from "./collections";
+
+export const addLocalActions = (actions: ServiceBrokerConstantType) => {
+  Object.assign(ACTIONS, actions);
+  console.log("added local actions!");
+};
+
+export const addLocalPermissions = (permissions: PermissionsConstantType) => {
+  Object.assign(PERMISSIONS, permissions);
+  console.log("added local permissions!");
+};
