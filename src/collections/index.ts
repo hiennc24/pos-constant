@@ -11,13 +11,12 @@
  * Contains all database collections organized by domain.
  * This provides a clean, type-safe interface for accessing collections.
  */
-import { DomainCollections } from "../types";
 
 export type CollectionsConstantType = {
-  [key in keyof typeof COLLECTIONS]: (typeof COLLECTIONS)[key];
+  [key in keyof typeof COLLECTIONS]: string;
 };
 
-const COLLECTIONS: DomainCollections = {
+const COLLECTIONS = {
   // Tenant Management Collections
   TENANT_COLLECTION_NAME: "tenant",
   TENANT_REPOSITORY_NAME: "tenants",
@@ -94,6 +93,6 @@ const COLLECTIONS: DomainCollections = {
   // Danh mục chứng từ
   VOUCHER_TYPE_COLLECTION_NAME: "voucherType",
   VOUCHER_TYPE_REPOSITORY_NAME: "voucher_types",
-} as const;
+};
 
 export default COLLECTIONS;
