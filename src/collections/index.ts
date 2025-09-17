@@ -53,6 +53,27 @@ const COLLECTIONS = {
   EMPLOYEE_COLLECTION_NAME: "employee",
   EMPLOYEE_REPOSITORY_NAME: "employees",
 
+  EMPLOYEE_PROFILE_COLLECTION_NAME: "employee_profile",
+  EMPLOYEE_PROFILE_REPOSITORY_NAME: "employee_profiles",
+
+  EMPLOYEE_SETTING_COLLECTION_NAME: "employee_setting",
+  EMPLOYEE_SETTING_REPOSITORY_NAME: "employee_settings",
+
+  EMPLOYEE_HISTORY_COLLECTION_NAME: "employee_history",
+  EMPLOYEE_HISTORY_REPOSITORY_NAME: "employee_histories",
+
+  EMPLOYEE_CHANGE_HISTORY_COLLECTION_NAME: "employee_change_history",
+  EMPLOYEE_CHANGE_HISTORY_REPOSITORY_NAME: "employee_change_histories",
+
+  DEPARTMENT_POSITION_COLLECTION_NAME: "department_position",
+  DEPARTMENT_POSITION_REPOSITORY_NAME: "department_positions",
+
+  ORGANIZATION_COLLECTION_NAME: "organization",
+  ORGANIZATION_REPOSITORY_NAME: "organizations",
+
+  ORG_SETTING_COLLECTION_NAME: "org_setting",
+  ORG_SETTING_REPOSITORY_NAME: "org_settings",
+
   DEPARTMENT_COLLECTION_NAME: "department",
   DEPARTMENT_REPOSITORY_NAME: "departments",
 
