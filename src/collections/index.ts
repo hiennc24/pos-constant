@@ -18,110 +18,110 @@ export type CollectionsConstantType = {
 
 const COLLECTIONS = {
   // Tenant Management Collections
-  TENANT_COLLECTION_NAME: "tenant",
-  TENANT_REPOSITORY_NAME: "tenants",
+  TENANT_REPOSITORY_NAME: "tenant",
+  TENANT_COLLECTION_NAME: "tenants",
 
   // Account Management Collections
-  TENANT_ACCOUNT_COLLECTION_NAME: "tenant_account",
-  TENANT_ACCOUNT_REPOSITORY_NAME: "tenant_accounts",
+  TENANT_ACCOUNT_REPOSITORY_NAME: "tenantAccount",
+  TENANT_ACCOUNT_COLLECTION_NAME: "tenant_accounts",
 
   // Git project
-  GIT_PROJECT_COLLECTION_NAME: "git_project",
-  GIT_PROJECT_REPOSITORY_NAME: "git_projects",
+  GIT_PROJECT_REPOSITORY_NAME: "gitProject",
+  GIT_PROJECT_COLLECTION_NAME: "git_projects",
 
   // Role Management Collections
-  TENANT_ROLE_COLLECTION_NAME: "tenant_role",
-  TENANT_ROLE_REPOSITORY_NAME: "tenant_roles",
+  TENANT_ROLE_REPOSITORY_NAME: "tenantRole",
+  TENANT_ROLE_COLLECTION_NAME: "tenant_roles",
 
   // Server Management Collections
-  TENANT_SERVER_COLLECTION_NAME: "tenant_server",
-  TENANT_SERVER_REPOSITORY_NAME: "tenant_servers",
+  TENANT_SERVER_REPOSITORY_NAME: "tenantServer",
+  TENANT_SERVER_COLLECTION_NAME: "tenant_servers",
 
   // Service Management Collections
-  TENANT_SERVICE_COLLECTION_NAME: "tenant_service",
-  TENANT_SERVICE_REPOSITORY_NAME: "tenant_services",
+  TENANT_SERVICE_REPOSITORY_NAME: "tenantService",
+  TENANT_SERVICE_COLLECTION_NAME: "tenant_services",
 
   // Setting Management Collections
-  TENANT_SETTING_COLLECTION_NAME: "tenant_setting",
-  TENANT_SETTING_REPOSITORY_NAME: "tenant_settings",
+  TENANT_SETTING_REPOSITORY_NAME: "tenantSetting",
+  TENANT_SETTING_COLLECTION_NAME: "tenant_settings",
 
   // Application Management Collections
-  TENANT_APPLICATION_COLLECTION_NAME: "tenant_application",
-  TENANT_APPLICATION_REPOSITORY_NAME: "tenant_applications",
+  TENANT_APPLICATION_REPOSITORY_NAME: "tenantApplication",
+  TENANT_APPLICATION_COLLECTION_NAME: "tenant_applications",
 
   // Common Management Collections
-  COMMON_COLLECTION_NAME: "common",
-  COMMON_REPOSITORY_NAME: "commons",
+  COMMON_REPOSITORY_NAME: "common",
+  COMMON_COLLECTION_NAME: "commons",
 
   // Core Management Collections
-  EMPLOYEE_COLLECTION_NAME: "employee",
-  EMPLOYEE_REPOSITORY_NAME: "employees",
+  EMPLOYEE_REPOSITORY_NAME: "employee",
+  EMPLOYEE_COLLECTION_NAME: "employees",
 
-  EMPLOYEE_PROFILE_COLLECTION_NAME: "employee_profile",
-  EMPLOYEE_PROFILE_REPOSITORY_NAME: "employee_profiles",
+  EMPLOYEE_PROFILE_REPOSITORY_NAME: "employeeProfile",
+  EMPLOYEE_PROFILE_COLLECTION_NAME: "employee_profiles",
 
-  EMPLOYEE_SETTING_COLLECTION_NAME: "employee_setting",
-  EMPLOYEE_SETTING_REPOSITORY_NAME: "employee_settings",
+  EMPLOYEE_SETTING_REPOSITORY_NAME: "employeeSetting",
+  EMPLOYEE_SETTING_COLLECTION_NAME: "employee_settings",
 
-  EMPLOYEE_HISTORY_COLLECTION_NAME: "employee_history",
-  EMPLOYEE_HISTORY_REPOSITORY_NAME: "employee_histories",
+  EMPLOYEE_HISTORY_REPOSITORY_NAME: "employeeHistory",
+  EMPLOYEE_HISTORY_COLLECTION_NAME: "employee_histories",
 
-  EMPLOYEE_CHANGE_HISTORY_COLLECTION_NAME: "employee_change_history",
-  EMPLOYEE_CHANGE_HISTORY_REPOSITORY_NAME: "employee_change_histories",
+  EMPLOYEE_CHANGE_HISTORY_REPOSITORY_NAME: "employeeChangeHistory",
+  EMPLOYEE_CHANGE_HISTORY_COLLECTION_NAME: "employee_change_histories",
 
-  DEPARTMENT_POSITION_COLLECTION_NAME: "department_position",
-  DEPARTMENT_POSITION_REPOSITORY_NAME: "department_positions",
+  DEPARTMENT_POSITION_REPOSITORY_NAME: "departmentPosition",
+  DEPARTMENT_POSITION_COLLECTION_NAME: "department_positions",
 
-  ORGANIZATION_COLLECTION_NAME: "organization",
-  ORGANIZATION_REPOSITORY_NAME: "organizations",
+  ORGANIZATION_REPOSITORY_NAME: "organization",
+  ORGANIZATION_COLLECTION_NAME: "organizations",
 
-  ORG_SETTING_COLLECTION_NAME: "org_setting",
-  ORG_SETTING_REPOSITORY_NAME: "org_settings",
+  ORG_SETTING_REPOSITORY_NAME: "orgSetting",
+  ORG_SETTING_COLLECTION_NAME: "org_settings",
 
-  DEPARTMENT_COLLECTION_NAME: "department",
-  DEPARTMENT_REPOSITORY_NAME: "departments",
+  DEPARTMENT_REPOSITORY_NAME: "department",
+  DEPARTMENT_COLLECTION_NAME: "departments",
 
   // Account Management Collections
-  ACCOUNT_COLLECTION_NAME: "account",
-  ACCOUNT_REPOSITORY_NAME: "accounts",
+  ACCOUNT_REPOSITORY_NAME: "account",
+  ACCOUNT_COLLECTION_NAME: "accounts",
 
-  POSITION_COLLECTION_NAME: "position",
-  POSITION_REPOSITORY_NAME: "positions",
+  POSITION_REPOSITORY_NAME: "position",
+  POSITION_COLLECTION_NAME: "positions",
 
   // Business Management Collections
-  BUSINESS_COLLECTION_NAME: "business",
-  BUSINESS_REPOSITORY_NAME: "businesses",
+  BUSINESS_REPOSITORY_NAME: "business",
+  BUSINESS_COLLECTION_NAME: "businesses",
 
-  GROUP_COLLECTION_NAME: "partner_group",
-  GROUP_REPOSITORY_NAME: "partner_groups",
+  GROUP_REPOSITORY_NAME: "partnerGroup",
+  GROUP_COLLECTION_NAME: "partner_groups",
 
-  PARTNER_COLLECTION_NAME: "partner",
-  PARTNER_REPOSITORY_NAME: "partners",
+  PARTNER_REPOSITORY_NAME: "partner",
+  PARTNER_COLLECTION_NAME: "partners",
 
-  ADMINISTRATION_ITEMS_COLLECTION_NAME: "administrationItem",
-  ADMINISTRATION_ITEMS_REPOSITORY_NAME: "administration_items",
+  ADMINISTRATION_ITEMS_REPOSITORY_NAME: "administrationItems",
+  ADMINISTRATION_ITEMS_COLLECTION_NAME: "administration_items",
 
-  CUSTOMER_COLLECTION_NAME: "customer",
-  CUSTOMER_REPOSITORY_NAME: "customers",
+  CUSTOMER_REPOSITORY_NAME: "customer",
+  CUSTOMER_COLLECTION_NAME: "customers",
 
-  GROUP_LABEL_COLLECTION_NAME: "groupLabel",
-  GROUP_LABEL_REPOSITORY_NAME: "group_labels",
+  GROUP_LABEL_REPOSITORY_NAME: "groupLabel",
+  GROUP_LABEL_COLLECTION_NAME: "group_labels",
 
   // danh mục tiền tệ
-  CURRENCY_COLLECTION_NAME: "currency",
-  CURRENCY_REPOSITORY_NAME: "currencies",
+  CURRENCY_REPOSITORY_NAME: "currency",
+  CURRENCY_COLLECTION_NAME: "currencies",
 
   // Danh mục quốc gia
-  COUNTRY_COLLECTION_NAME: "country",
-  COUNTRY_REPOSITORY_NAME: "countries",
+  COUNTRY_REPOSITORY_NAME: "country",
+  COUNTRY_COLLECTION_NAME: "countries",
 
   // Danh mục đơn vị tính
-  UNIT_COLLECTION_NAME: "unit",
-  UNIT_REPOSITORY_NAME: "units",
+  UNIT_REPOSITORY_NAME: "unit",
+  UNIT_COLLECTION_NAME: "units",
 
   // Danh mục chứng từ
-  VOUCHER_TYPE_COLLECTION_NAME: "voucherType",
-  VOUCHER_TYPE_REPOSITORY_NAME: "voucher_types",
+  VOUCHER_TYPE_REPOSITORY_NAME: "voucherTypes",
+  VOUCHER_TYPE_COLLECTION_NAME: "voucher_types",
 };
 
 export default COLLECTIONS;
