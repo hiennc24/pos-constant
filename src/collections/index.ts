@@ -122,6 +122,10 @@ const COLLECTIONS = {
   // Danh mục chứng từ
   VOUCHER_TYPE_REPOSITORY_NAME: "voucherTypes",
   VOUCHER_TYPE_COLLECTION_NAME: "voucher_types",
+
+  // Role Management Collections
+  ROLE_REPOSITORY_NAME: "role",
+  ROLE_COLLECTION_NAME: "roles",
 };
 
 export default COLLECTIONS;
