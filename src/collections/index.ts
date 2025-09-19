@@ -22,28 +22,32 @@ const COLLECTIONS = {
   TENANT_REPOSITORY_NAME: "tenants",
 
   // Account Management Collections
-  ACCOUNT_COLLECTION_NAME: "account",
-  ACCOUNT_REPOSITORY_NAME: "accounts",
+  TENANT_ACCOUNT_COLLECTION_NAME: "tenant_account",
+  TENANT_ACCOUNT_REPOSITORY_NAME: "tenant_accounts",
 
   // Git project
   GIT_PROJECT_COLLECTION_NAME: "git_project",
   GIT_PROJECT_REPOSITORY_NAME: "git_projects",
 
   // Role Management Collections
-  ROLE_COLLECTION_NAME: "role",
-  ROLE_REPOSITORY_NAME: "roles",
+  TENANT_ROLE_COLLECTION_NAME: "tenant_role",
+  TENANT_ROLE_REPOSITORY_NAME: "tenant_roles",
 
-  // Git branch
-  SERVER_COLLECTION_NAME: "server",
-  SERVER_REPOSITORY_NAME: "servers",
+  // Server Management Collections
+  TENANT_SERVER_COLLECTION_NAME: "tenant_server",
+  TENANT_SERVER_REPOSITORY_NAME: "tenant_servers",
 
-  // Git commit
-  SERVICE_COLLECTION_NAME: "service",
-  SERVICE_REPOSITORY_NAME: "services",
+  // Service Management Collections
+  TENANT_SERVICE_COLLECTION_NAME: "tenant_service",
+  TENANT_SERVICE_REPOSITORY_NAME: "tenant_services",
 
-  // Git commit
-  SETTING_COLLECTION_NAME: "setting",
-  SETTING_REPOSITORY_NAME: "settings",
+  // Setting Management Collections
+  TENANT_SETTING_COLLECTION_NAME: "tenant_setting",
+  TENANT_SETTING_REPOSITORY_NAME: "tenant_settings",
+
+  // Application Management Collections
+  TENANT_APPLICATION_COLLECTION_NAME: "tenant_application",
+  TENANT_APPLICATION_REPOSITORY_NAME: "tenant_applications",
 
   // Common Management Collections
   COMMON_COLLECTION_NAME: "common",
@@ -76,6 +80,10 @@ const COLLECTIONS = {
 
   DEPARTMENT_COLLECTION_NAME: "department",
   DEPARTMENT_REPOSITORY_NAME: "departments",
+
+  // Account Management Collections
+  ACCOUNT_COLLECTION_NAME: "account",
+  ACCOUNT_REPOSITORY_NAME: "accounts",
 
   POSITION_COLLECTION_NAME: "position",
   POSITION_REPOSITORY_NAME: "positions",
