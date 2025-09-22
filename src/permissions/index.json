@@ -308,11 +308,11 @@
     "VIEW": "kapos:categories:positions:view"
   },
   "EMPLOYEES": {
-    "LIST": "kapos:categories:employees:list",
-    "CREATE": "kapos:categories:employees:create",
-    "UPDATE": "kapos:categories:employees:update",
-    "DELETE": "kapos:categories:employees:delete",
-    "VIEW": "kapos:categories:employees:view"
+    "LIST": "kapos:categories:employees:employee:list",
+    "CREATE": "kapos:categories:employees:employee:create",
+    "UPDATE": "kapos:categories:employees:employee:update",
+    "DELETE": "kapos:categories:employees:employee:delete",
+    "VIEW": "kapos:categories:employees:employee:view"
   },
   "EMPLOYEE_CHANGE_HISTORIES": {
     "LIST": "kapos:categories:employees:employee_change_histories:list",
@@ -334,5 +334,54 @@
     "UPDATE": "kapos:categories:employees:employee_settings:update",
     "DELETE": "kapos:categories:employees:employee_settings:delete",
     "VIEW": "kapos:categories:employees:employee_settings:view"
+  },
+  "PRICEBOOKS": {
+    "LIST": "kapos:general:pricebooks:list",
+    "CREATE": "kapos:general:pricebooks:create",
+    "UPDATE": "kapos:general:pricebooks:update",
+    "DELETE": "kapos:general:pricebooks:delete",
+    "VIEW": "kapos:general:pricebooks:view"
+  },
+  "PROMOTIONS": {
+    "LIST": "kapos:general:promotions:list",
+    "CREATE": "kapos:general:promotions:create",
+    "UPDATE": "kapos:general:promotions:update",
+    "DELETE": "kapos:general:promotions:delete",
+    "VIEW": "kapos:general:promotions:view"
+  },
+  "VOUCHERS": {
+    "LIST": "kapos:general:vouchers:list",
+    "CREATE": "kapos:general:vouchers:create",
+    "UPDATE": "kapos:general:vouchers:update",
+    "DELETE": "kapos:general:vouchers:delete",
+    "VIEW": "kapos:general:vouchers:view"
+  },
+  "LOYALTIES": {
+    "LIST": "kapos:general:loyalties:list",
+    "CREATE": "kapos:general:loyalties:create",
+    "UPDATE": "kapos:general:loyalties:update",
+    "DELETE": "kapos:general:loyalties:delete",
+    "VIEW": "kapos:general:loyalties:view"
+  },
+  "BRANCHS": {
+    "LIST": "kapos:general:branchs:list",
+    "CREATE": "kapos:general:branchs:create",
+    "UPDATE": "kapos:general:branchs:update",
+    "DELETE": "kapos:general:branchs:delete",
+    "VIEW": "kapos:general:branchs:view"
+  },
+  "ACCOUNTS": {
+    "LIST": "kapos:general:accounts:list",
+    "CREATE": "kapos:general:accounts:create",
+    "UPDATE": "kapos:general:accounts:update",
+    "DELETE": "kapos:general:accounts:delete",
+    "VIEW": "kapos:general:accounts:view"
+  },
+  "ROLES": {
+    "LIST": "kapos:general:roles:list",
+    "CREATE": "kapos:general:roles:create",
+    "UPDATE": "kapos:general:roles:update",
+    "DELETE": "kapos:general:roles:delete",
+    "VIEW": "kapos:general:roles:view"
   }
 }
