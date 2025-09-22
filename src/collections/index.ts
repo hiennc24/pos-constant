@@ -123,6 +123,14 @@ const COLLECTIONS = {
   VOUCHER_TYPE_REPOSITORY_NAME: "voucherTypes",
   VOUCHER_TYPE_COLLECTION_NAME: "voucher_types",
 
+  // Danh mục thuộc tính
+  ATTRIBUTE_REPOSITORY_NAME: "attribute",
+  ATTRIBUTE_COLLECTION_NAME: "attributes",
+
+  // Danh mục Kho
+  WAREHOUSE_REPOSITORY_NAME: "warehouse",
+  WAREHOUSE_COLLECTION_NAME: "warehouses",
+
   // Role Management Collections
   ROLE_REPOSITORY_NAME: "role",
   ROLE_COLLECTION_NAME: "roles",
