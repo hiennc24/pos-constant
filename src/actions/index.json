@@ -384,5 +384,31 @@
       "ACTION_DELETE_MANY": "deleteMany",
       "ACTION_UPDATE_STATUS": "updateStatus"
     }
+  },
+  "SVC_ATTRIBUTES": {
+    "NAME": "master-data-svc.attributes",
+    "ACTIONS": {
+      "ACTION_DETAIL": "getDetail",
+      "ACTION_DELETE": "delete",
+      "ACTION_CREATE": "create",
+      "ACTION_UPDATE": "update",
+      "ACTION_LIST": "getList",
+      "ACTION_UPDATE_MANY": "updateMany",
+      "ACTION_DELETE_MANY": "deleteMany",
+      "ACTION_UPDATE_STATUS": "updateStatus"
+    }
+  },
+  "SVC_WAREHOUSES": {
+    "NAME": "master-data-svc.warehouses",
+    "ACTIONS": {
+      "ACTION_DETAIL": "getDetail",
+      "ACTION_DELETE": "delete",
+      "ACTION_CREATE": "create",
+      "ACTION_UPDATE": "update",
+      "ACTION_LIST": "getList",
+      "ACTION_UPDATE_MANY": "updateMany",
+      "ACTION_DELETE_MANY": "deleteMany",
+      "ACTION_UPDATE_STATUS": "updateStatus"
+    }
   }
 }
