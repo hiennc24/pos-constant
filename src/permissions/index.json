@@ -23,6 +23,22 @@
     "VIEW": "kapos:categories:products:view"
   },
 
+  "ATTRIBUTES": {
+    "LIST": "kapos:categories:attributes:list",
+    "CREATE": "kapos:categories:attributes:create",
+    "UPDATE": "kapos:categories:attributes:update",
+    "DELETE": "kapos:categories:attributes:delete",
+    "VIEW": "kapos:categories:attributes:view"
+  },
+
+  "WAREHOUSES": {
+    "LIST": "kapos:categories:warehouses:list",
+    "CREATE": "kapos:categories:warehouses:create",
+    "UPDATE": "kapos:categories:warehouses:update",
+    "DELETE": "kapos:categories:warehouses:delete",
+    "VIEW": "kapos:categories:warehouses:view"
+  },
+
   "CURRENCIES": {
     "LIST": "kapos:categories:currencies:list",
     "CREATE": "kapos:categories:currencies:create",
