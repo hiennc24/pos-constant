@@ -317,7 +317,8 @@
       "ACTION_LIST": "getList",
       "ACTION_UPDATE_MANY": "updateMany",
       "ACTION_DELETE_MANY": "deleteMany",
-      "ACTION_UPDATE_STATUS": "updateStatus"
+      "ACTION_UPDATE_STATUS": "updateStatus",
+      "ACTION_UPDATE_MANY_STATUS": "updateManyStatus"
     }
   },
   "SVC_PARTNERS": {
@@ -330,7 +331,8 @@
       "ACTION_LIST": "getList",
       "ACTION_UPDATE_MANY": "updateMany",
       "ACTION_DELETE_MANY": "deleteMany",
-      "ACTION_UPDATE_STATUS": "updateStatus"
+      "ACTION_UPDATE_STATUS": "updateStatus",
+      "ACTION_UPDATE_MANY_STATUS": "updateManyStatus"
     }
   },
   "SVC_COUNTRIES": {
@@ -343,7 +345,8 @@
       "ACTION_LIST": "getList",
       "ACTION_UPDATE_MANY": "updateMany",
       "ACTION_DELETE_MANY": "deleteMany",
-      "ACTION_UPDATE_STATUS": "updateStatus"
+      "ACTION_UPDATE_STATUS": "updateStatus",
+      "ACTION_UPDATE_MANY_STATUS": "updateManyStatus"
     }
   },
   "SVC_UNITS": {
@@ -356,7 +359,8 @@
       "ACTION_LIST": "getList",
       "ACTION_UPDATE_MANY": "updateMany",
       "ACTION_DELETE_MANY": "deleteMany",
-      "ACTION_UPDATE_STATUS": "updateStatus"
+      "ACTION_UPDATE_STATUS": "updateStatus",
+      "ACTION_UPDATE_MANY_STATUS": "updateManyStatus"
     }
   },
   "SVC_VOUCHER_TYPES": {
@@ -396,7 +400,8 @@
       "ACTION_LIST": "getList",
       "ACTION_UPDATE_MANY": "updateMany",
       "ACTION_DELETE_MANY": "deleteMany",
-      "ACTION_UPDATE_STATUS": "updateStatus"
+      "ACTION_UPDATE_STATUS": "updateStatus",
+      "ACTION_UPDATE_MANY_STATUS": "updateManyStatus"
     }
   },
   "SVC_WAREHOUSES": {
@@ -409,7 +414,8 @@
       "ACTION_LIST": "getList",
       "ACTION_UPDATE_MANY": "updateMany",
       "ACTION_DELETE_MANY": "deleteMany",
-      "ACTION_UPDATE_STATUS": "updateStatus"
+      "ACTION_UPDATE_STATUS": "updateStatus",
+      "ACTION_UPDATE_MANY_STATUS": "updateManyStatus"
     }
   }
 }
