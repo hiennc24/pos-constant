@@ -369,7 +369,8 @@
       "ACTION_LIST": "getList",
       "ACTION_UPDATE_MANY": "updateMany",
       "ACTION_DELETE_MANY": "deleteMany",
-      "ACTION_UPDATE_STATUS": "updateStatus"
+      "ACTION_UPDATE_STATUS": "updateStatus",
+      "ACTION_UPDATE_MANY_STATUS": "updateManyStatus"
     }
   },
   "SVC_CURRENCIES": {
