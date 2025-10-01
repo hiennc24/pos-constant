@@ -417,5 +417,13 @@
       "ACTION_UPDATE_STATUS": "updateStatus",
       "ACTION_UPDATE_MANY_STATUS": "updateManyStatus"
     }
+  },
+  "SVC_COMMON_SETTINGS": {
+    "NAME": "common-svc.settings",
+    "ACTIONS": {
+      "ACTION_INFOMATION": "updateInfomation",
+      "ACTION_CURRENCY": "updateCurrency",
+      "ACTION_TAX": "updateTax"
+    }
   }
 }
