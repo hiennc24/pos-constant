@@ -137,6 +137,15 @@ const COLLECTIONS = {
   // Role Management Collections
   ROLE_REPOSITORY_NAME: "role",
   ROLE_COLLECTION_NAME: "roles",
+
+  COMPANY_INFOMATION_REPOSITORY_NAME: "companyInformation",
+  COMPANY_INFOMATION_COLLECTION_NAME: "company_informations",
+
+  CURRENCY_SETTING_REPOSITORY_NAME: "currencySetting",
+  CURRENCY_SETTING_COLLECTION_NAME: "currency_settings",
+
+  TAX_SETTING_REPOSITORY_NAME: "taxSetting",
+  TAX_SETTING_COLLECTION_NAME: "tax_settings",
 };
 
 export default COLLECTIONS;
