@@ -146,6 +146,9 @@ const COLLECTIONS = {
 
   TAX_SETTING_REPOSITORY_NAME: "taxSetting",
   TAX_SETTING_COLLECTION_NAME: "tax_settings",
+
+  ITEM_CODE_REPOSITORY_NAME: "itemCode",
+  ITEM_CODE_COLLECTION_NAME: "item_codes",
 };
 
 export default COLLECTIONS;
