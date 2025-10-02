@@ -437,5 +437,148 @@
       "ACTION_UPDATE_TAX": "updateTax",
       "ACTION_GET_ITEM_CODE": "getItemCode"
     }
-  }
+  },
+
+	"SVC_PRODUCT_GROUP_LABEL": {
+		"NAME": "product-svc.group-labels",
+		"ACTIONS": {
+			"ACTION_DETAIL": "getDetail",
+			"ACTION_DELETE": "delete",
+			"ACTION_CREATE": "create",
+			"ACTION_UPDATE": "update",
+			"ACTION_LIST": "getList",
+			"ACTION_UPDATE_MANY": "updateMany",
+			"ACTION_DELETE_MANY": "deleteMany",
+			"ACTION_UPDATE_STATUS": "updateStatus",
+			"ACTION_UPDATE_MANY_STATUS": "updateManyStatus",
+			"ACTION_GET_DOWNLOAD_INFORMATION": "getDownloadInfomation",
+			"ACTION_CHECK_GROUP_LABEL_IDS": "checkGroupLabelIds",
+			"ACTION_FIND_GROUP_LABEL": "findGroupLabel",
+			"ACTION_GET_PRODUCT_BY_CATEGORY": "getProductByCategory",
+			"ACTION_UPLOAD_GROUP_LABEL": "uploadGroupLabel"
+		}
+	},
+	"SVC_PRODUCT": {
+		"NAME": "product-svc.products",
+		"ACTIONS": {
+			"ACTION_DETAIL": "getDetail",
+			"ACTION_DELETE": "delete",
+			"ACTION_CREATE": "create",
+			"ACTION_UPDATE": "update",
+			"ACTION_LIST": "getList",
+			"ACTION_UPDATE_MANY": "updateMany",
+			"ACTION_DELETE_MANY": "deleteMany",
+			"ACTION_UPDATE_STATUS": "updateStatus",
+			"ACTION_UPDATE_MANY_STATUS": "updateManyStatus"
+		}
+	},
+	"SVC_PRODUCT_ITEMS": {
+		"NAME": "product-svc.product-items",
+		"ACTIONS": {
+			"ACTION_DETAIL": "getDetail",
+			"ACTION_DELETE": "delete",
+			"ACTION_CREATE": "create",
+			"ACTION_UPDATE": "update",
+			"ACTION_LIST": "getList",
+			"ACTION_UPDATE_MANY": "updateMany",
+			"ACTION_DELETE_MANY": "deleteMany",
+			"ACTION_UPDATE_STATUS": "updateStatus",
+			"ACTION_UPDATE_MANY_STATUS": "updateManyStatus",
+			"ACTION_GET_PRODUCT_ITEM_FOR_ORDER": "getProductItemForOrder",
+			"ACTION_UPLOAD_PRODUCT_ITEM": "uploadProductItem",
+			"ACTION_REMOVE_GROUP_LABEL_OR_PRODUCT_ITEM": "removeGroupLabelOrProductItem",
+			"ACTION_DOWNLOAD_PRODUCT_ITEM": "getProductItemForOrder"
+		}
+	},
+	"SVC_PRODUCT_SETTING": {
+		"NAME": "product-svc.product-settings",
+		"ACTIONS": {
+			"ACTION_DETAIL": "getDetail",
+			"ACTION_DELETE": "delete",
+			"ACTION_CREATE": "create",
+			"ACTION_UPDATE": "update",
+			"ACTION_LIST": "getList",
+			"ACTION_UPDATE_MANY": "updateMany",
+			"ACTION_DELETE_MANY": "deleteMany",
+			"ACTION_UPDATE_STATUS": "updateStatus",
+			"ACTION_UPDATE_MANY_STATUS": "updateManyStatus",
+			"ACTION_GET_SETTING": "getSetting",
+			"ACTION_ADD_TAG": "addTag",
+			"ACTION_UPDATE_TAG": "updateTag",
+			"ACTION_REMOVE_TAG": "removeTag",
+			"ACTION_BATCH_UPDATE_OTHER": "batchUpdateOther",
+			"ACTION_ADD_ATTRIBUTE": "addAttribute",
+			"ACTION_UPDATE_ATTRIBUTE": "updateAttribute",
+			"ACTION_REMOVE_ATTRIBUTE": "removeAttribute",
+			"ACTION_UPDATE_ACTIVE_ATTRIBUTE": "updateActiveAttribute",
+			"ACTION_BATCH_UPDATE_TAX": "batchUpdateTax",
+			"ACTION_UPDATE_SET": "updateSet",
+			"ACTION_UPDATE_PACKAGE": "updatePackage",
+			"ACTION_UPDATE_DETAIL_FIELD": "updateDetailField",
+			"ACTION_UPDATE_FIELD": "updateField"
+		}
+	},
+	"SVC_INVENTORY": {
+		"NAME": "product-svc.inventories",
+		"ACTIONS": {
+			"ACTION_DETAIL": "getDetail",
+			"ACTION_DELETE": "delete",
+			"ACTION_CREATE": "create",
+			"ACTION_UPDATE": "update",
+			"ACTION_LIST": "getList",
+			"ACTION_UPDATE_MANY": "updateMany",
+			"ACTION_DELETE_MANY": "deleteMany",
+			"ACTION_UPDATE_STATUS": "updateStatus",
+			"ACTION_UPLOAD": "upload",
+			"ACTION_GET_WAREHOUSE_AVAILABLE_BY_PRODUCT_ID": "getWarehouseAvailableByProduct",
+			"ACTION_GET_QUEUE_IMPORT_STATUS": "queueImportStatus",
+			"ACTION_GET_INVENTORY_REPORT": "getInventoryReport",
+			"ACTION_GET_PRODUCT_LIST_BY_WAREHOUSE_ID": "getProductListByWarehouseId"
+		}
+	},
+	"SVC_INVENTORY_TRANSACTIONS": {
+		"NAME": "product-svc.inventory-transactions",
+		"ACTIONS": {
+			"ACTION_DETAIL": "getDetail",
+			"ACTION_DELETE": "delete",
+			"ACTION_CREATE": "create",
+			"ACTION_UPDATE": "update",
+			"ACTION_LIST": "getList",
+			"ACTION_UPDATE_MANY": "updateMany",
+			"ACTION_DELETE_MANY": "deleteMany",
+			"ACTION_UPDATE_STATUS": "updateStatus",
+			"ACTION_GET_INVENTORY_REPORTS": "getInventoryReport",
+			"ACTION_GET_PRODUCT_PRICE_COST": "getProductPriceCost"
+		}
+	},
+	"SVC_ORDER_INVENTORY": {
+		"NAME": "product-svc.order-inventories",
+		"ACTIONS": {
+			"ACTION_DETAIL": "getDetail",
+			"ACTION_DELETE": "delete",
+			"ACTION_CREATE": "create",
+			"ACTION_UPDATE": "update",
+			"ACTION_LIST": "getList",
+			"ACTION_UPDATE_MANY": "updateMany",
+			"ACTION_DELETE_MANY": "deleteMany",
+			"ACTION_UPDATE_STATUS": "updateStatus",
+			"ACTION_GET_INVENTORY_REPORT": "getInventoryReport",
+			"ACTION_GET_PRODUCT_LIST_BY_WAREHOUSE_ID": "getProductListByWarehouseId",
+			"ACTION_UPLOAD": "upload",
+			"ACTION_GET_WAREHOUSE_AVAILABLE_BY_PRODUCT_ID": "getWarehouseAvailableByProductId",
+			"ACTION_GET_QUEUE_IMPORT_STATUS": "queueImportStatus",
+			"ACTION_CREATE_INVENTORY_TRANSACTION_DATA_SEED": "createInventoryTransactionDataSeed"
+		}
+	},
+	"SVC_ORDER_INVENTORY_TRANSACTIONS": {
+		"NAME": "product-svc.order-inventories",
+		"ACTIONS": {
+			"ACTION_DETAIL": "getDetail",
+			"ACTION_DELETE": "delete",
+			"ACTION_CREATE": "create",
+			"ACTION_UPDATE": "update",
+			"ACTION_GET_ORDER_INVENTORY_REPORTS": "getOrderInventoryReport",
+			"ACTION_GET_PRODUCT_PRICE_COST": "getProductPriceCost"
+		}
+	}
 }
