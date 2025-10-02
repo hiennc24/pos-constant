@@ -421,9 +421,10 @@
   "SVC_COMMON_SETTINGS": {
     "NAME": "common-svc.settings",
     "ACTIONS": {
-      "ACTION_INFOMATION": "updateInfomation",
-      "ACTION_CURRENCY": "updateCurrency",
-      "ACTION_TAX": "updateTax"
+      "ACTION_GET_INFORMATION": "getInformation",
+      "ACTION_UPDATE_INFORMATION": "updateInformation",
+      "ACTION_UPDATE_CURRENCY": "updateCurrency",
+      "ACTION_UPDATE_TAX": "updateTax"
     }
   }
 }
