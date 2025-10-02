@@ -133,6 +133,14 @@
       "ACTION_GET_APPLICATIONS_BY_BUSINESS_CATEGORY_CODE": "getApplicationsByBusinessCategoryCode"
     }
   },
+  "SVC_TENANT_AUTHENTICATIONS": {
+    "NAME": "tenant-managements-svc.authentications",
+    "ACTIONS": {
+      "ACTION_LOGIN": "login",
+      "ACTION_REFRESH_TOKEN": "refreshToken",
+      "ACTION_VERIFY_JWT_TOKEN": "verifyJwtToken"
+    }
+  },
   "SVC_AUTHENTICATIONS": {
     "NAME": "authentication-svc.authentications",
     "ACTIONS": {
