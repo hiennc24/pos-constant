@@ -406,5 +406,13 @@
     "UPDATE": "kapos:settings:common:settings:update",
     "DELETE": "kapos:settings:common:settings:delete",
     "VIEW": "kapos:settings:common:settings:view"
+  },
+
+  "GROUP_LABELS": {
+		"LIST": "kapos:categories:group_labels:list",
+		"CREATE": "kapos:categories:group_labels:create",
+		"UPDATE": "kapos:categories:group_labels:update",
+		"DELETE": "kapos:categories:group_labels:delete",
+		"VIEW": "kapos:categories:group_labels:view"
   }
 }
