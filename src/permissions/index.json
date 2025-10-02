@@ -399,5 +399,12 @@
     "UPDATE": "kapos:general:roles:update",
     "DELETE": "kapos:general:roles:delete",
     "VIEW": "kapos:general:roles:view"
+  },
+  "COMMON_SETTINGS": {
+    "LIST": "kapos:settings:common:settings:list",
+    "CREATE": "kapos:settings:common:settings:create",
+    "UPDATE": "kapos:settings:common:settings:update",
+    "DELETE": "kapos:settings:common:settings:delete",
+    "VIEW": "kapos:settings:common:settings:view"
   }
 }
