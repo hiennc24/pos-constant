@@ -443,7 +443,8 @@
   "SVC_COMMON_TAX": {
     "NAME": "common-svc.tax",
     "ACTIONS": {
-      "ACTION_GET_TAX": "getTax"
+      "ACTION_GET_TAX": "getTax",
+      "ACTION_UPDATE_TAX": "updateTax"
     }
   },
   "SVC_COMMON_ITEM_CODE": {
