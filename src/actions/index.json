@@ -426,15 +426,29 @@
       "ACTION_UPDATE_MANY_STATUS": "updateManyStatus"
     }
   },
-  "SVC_COMMON_SETTINGS": {
-    "NAME": "common-svc.settings",
+  "SVC_COMMON_INFORMATION": {
+    "NAME": "common-svc.information",
     "ACTIONS": {
       "ACTION_GET_INFORMATION": "getInformation",
-      "ACTION_UPDATE_INFORMATION": "updateInformation",
+      "ACTION_UPDATE_INFORMATION": "updateInformation"
+    }
+  },
+  "SVC_COMMON_CURRENCY": {
+    "NAME": "common-svc.currency",
+    "ACTIONS": {
       "ACTION_GET_CURRENCY": "getCurrency",
-      "ACTION_UPDATE_CURRENCY": "updateCurrency",
-      "ACTION_GET_TAX": "getTax",
-      "ACTION_UPDATE_TAX": "updateTax",
+      "ACTION_UPDATE_CURRENCY": "updateCurrency"
+    }
+  },
+  "SVC_COMMON_TAX": {
+    "NAME": "common-svc.tax",
+    "ACTIONS": {
+      "ACTION_GET_TAX": "getTax"
+    }
+  },
+  "SVC_COMMON_ITEM_CODE": {
+    "NAME": "common-svc.item-code",
+    "ACTIONS": {
       "ACTION_GET_ITEM_CODE": "getItemCode"
     }
   },

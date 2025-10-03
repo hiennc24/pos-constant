@@ -400,12 +400,33 @@
     "DELETE": "kapos:general:roles:delete",
     "VIEW": "kapos:general:roles:view"
   },
-  "COMMON_SETTINGS": {
-    "LIST": "kapos:settings:common:settings:list",
-    "CREATE": "kapos:settings:common:settings:create",
-    "UPDATE": "kapos:settings:common:settings:update",
-    "DELETE": "kapos:settings:common:settings:delete",
-    "VIEW": "kapos:settings:common:settings:view"
+  "COMMON_INFORMATION": {
+    "LIST": "kapos:settings:common:information:list",
+    "CREATE": "kapos:settings:common:information:create",
+    "UPDATE": "kapos:settings:common:information:update",
+    "DELETE": "kapos:settings:common:information:delete",
+    "VIEW": "kapos:settings:common:information:view"
+  },
+  "COMMON_CURRENCY": {
+    "LIST": "kapos:settings:common:currency:list",
+    "CREATE": "kapos:settings:common:currency:create",
+    "UPDATE": "kapos:settings:common:currency:update",
+    "DELETE": "kapos:settings:common:currency:delete",
+    "VIEW": "kapos:settings:common:currency:view"
+  },
+  "COMMON_TAX": {
+    "LIST": "kapos:settings:common:tax:list",
+    "CREATE": "kapos:settings:common:tax:create",
+    "UPDATE": "kapos:settings:common:tax:update",
+    "DELETE": "kapos:settings:common:tax:delete",
+    "VIEW": "kapos:settings:common:tax:view"
+  },
+  "COMMON_ITEM_CODE": {
+    "LIST": "kapos:settings:common:item_code:list",
+    "CREATE": "kapos:settings:common:item_code:create",
+    "UPDATE": "kapos:settings:common:item_code:update",
+    "DELETE": "kapos:settings:common:item_code:delete",
+    "VIEW": "kapos:settings:common:item_code:view"
   },
 
   "GROUP_LABELS": {
