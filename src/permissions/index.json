@@ -15,14 +15,6 @@
     "VIEW": "kapos:categories:partner_groups:view"
   },
 
-  "PRODUCTS": {
-    "LIST": "kapos:categories:products:list",
-    "CREATE": "kapos:categories:products:create",
-    "UPDATE": "kapos:categories:products:update",
-    "DELETE": "kapos:categories:products:delete",
-    "VIEW": "kapos:categories:products:view"
-  },
-
   "ATTRIBUTES": {
     "LIST": "kapos:categories:attributes:list",
     "CREATE": "kapos:categories:attributes:create",
@@ -434,6 +426,37 @@
 		"CREATE": "kapos:categories:group_labels:create",
 		"UPDATE": "kapos:categories:group_labels:update",
 		"DELETE": "kapos:categories:group_labels:delete",
-		"VIEW": "kapos:categories:group_labels:view"
-  }
+		"VIEW": "kapos:categories:group_labels:view",
+		"FIND_PRODUCT": "kapos:categories:group_labels:find_product",
+		"DOWNLOAD": "kapos:categories:group_labels:download",
+		"UPLOAD": "kapos:categories:group_labels:upload"
+	},
+	"PRODUCTS": {
+		"LIST": "kapos:categories:group_labels:list",
+		"CREATE": "kapos:categories:group_labels:create",
+		"UPDATE": "kapos:categories:group_labels:update",
+		"DELETE": "kapos:categories:group_labels:delete",
+		"VIEW": "kapos:categories:group_labels:view",
+		"FIND_PRODUCT": "kapos:categories:group_labels:find_product",
+		"DOWNLOAD": "kapos:categories:group_labels:download",
+		"UPLOAD": "kapos:categories:group_labels:upload"
+	},
+	"PRODUCT_SETTINGS": {
+		"LIST": "kapos:categories:group_labels:list",
+		"CREATE": "kapos:categories:group_labels:create",
+		"UPDATE": "kapos:categories:group_labels:update",
+		"DELETE": "kapos:categories:group_labels:delete",
+		"VIEW": "kapos:categories:group_labels:view",
+		"ADD_TAG": "kapos:categories:group_labels:add_tag",
+		"REMOVE_TAG": "kapos:categories:group_labels:remove_tag",
+		"ADD_ATTRIBUTE": "kapos:categories:group_labels:add_attribute",
+		"UPDATE_ATTRIBUTE": "kapos:categories:group_labels:update_attribute",
+		"REMOVE_ATTRIBUTE": "kapos:categories:group_labels:remove_attribute",
+		"UPDATE_TAX": "kapos:categories:group_labels:update_tax",
+		"UPDATE_FIELDS": "kapos:categories:group_labels:update_fields",
+		"UPDATE_PACKAGE": "kapos:categories:group_labels:update_package",
+		"FIND_PRODUCT": "kapos:categories:group_labels:find_product",
+		"DOWNLOAD": "kapos:categories:group_labels:download",
+		"UPLOAD": "kapos:categories:group_labels:upload"
+	}
 }
