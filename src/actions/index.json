@@ -471,7 +471,7 @@
       "ACTION_CHECK_GROUP_LABEL_IDS": "checkGroupLabelIds",
       "ACTION_FIND_GROUP_LABEL": "findGroupLabel",
       "ACTION_GET_PRODUCT_BY_CATEGORY": "getProductByCategory",
-      "ACTION_UPLOAD_GROUP_LABEL": "uploadGroupLabel"
+      "ACTION_LOCK_UNLOCK": "lockUnlock"
     }
   },
   "SVC_PRODUCT": {
@@ -503,7 +503,8 @@
       "ACTION_GET_PRODUCT_ITEM_FOR_ORDER": "getProductItemForOrder",
       "ACTION_UPLOAD_PRODUCT_ITEM": "uploadProductItem",
       "ACTION_REMOVE_GROUP_LABEL_OR_PRODUCT_ITEM": "removeGroupLabelOrProductItem",
-      "ACTION_DOWNLOAD_PRODUCT_ITEM": "getProductItemForOrder"
+      "ACTION_DOWNLOAD_PRODUCT_ITEM": "getProductItemForOrder",
+      "ACTION_LOCK_UNLOCK": "lockUnlock"
     }
   },
   "SVC_PRODUCT_SETTING": {
