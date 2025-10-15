@@ -471,6 +471,7 @@
       "ACTION_CHECK_GROUP_LABEL_IDS": "checkGroupLabelIds",
       "ACTION_FIND_GROUP_LABEL": "findGroupLabel",
       "ACTION_GET_PRODUCT_BY_CATEGORY": "getProductByCategory",
+      "ACTION_UPLOAD_GROUP_LABEL": "uploadGroupLabel",
       "ACTION_LOCK_UNLOCK": "lockUnlock"
     }
   },
