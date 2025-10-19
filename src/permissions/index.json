@@ -422,41 +422,97 @@
   },
 
   "GROUP_LABELS": {
-		"LIST": "kapos:categories:group_labels:list",
-		"CREATE": "kapos:categories:group_labels:create",
-		"UPDATE": "kapos:categories:group_labels:update",
-		"DELETE": "kapos:categories:group_labels:delete",
-		"VIEW": "kapos:categories:group_labels:view",
-		"FIND_PRODUCT": "kapos:categories:group_labels:find_product",
-		"DOWNLOAD": "kapos:categories:group_labels:download",
-		"UPLOAD": "kapos:categories:group_labels:upload"
-	},
-	"PRODUCTS": {
-		"LIST": "kapos:categories:group_labels:list",
-		"CREATE": "kapos:categories:group_labels:create",
-		"UPDATE": "kapos:categories:group_labels:update",
-		"DELETE": "kapos:categories:group_labels:delete",
-		"VIEW": "kapos:categories:group_labels:view",
-		"FIND_PRODUCT": "kapos:categories:group_labels:find_product",
-		"DOWNLOAD": "kapos:categories:group_labels:download",
-		"UPLOAD": "kapos:categories:group_labels:upload"
-	},
-	"PRODUCT_SETTINGS": {
-		"LIST": "kapos:categories:group_labels:list",
-		"CREATE": "kapos:categories:group_labels:create",
-		"UPDATE": "kapos:categories:group_labels:update",
-		"DELETE": "kapos:categories:group_labels:delete",
-		"VIEW": "kapos:categories:group_labels:view",
-		"ADD_TAG": "kapos:categories:group_labels:add_tag",
-		"REMOVE_TAG": "kapos:categories:group_labels:remove_tag",
-		"ADD_ATTRIBUTE": "kapos:categories:group_labels:add_attribute",
-		"UPDATE_ATTRIBUTE": "kapos:categories:group_labels:update_attribute",
-		"REMOVE_ATTRIBUTE": "kapos:categories:group_labels:remove_attribute",
-		"UPDATE_TAX": "kapos:categories:group_labels:update_tax",
-		"UPDATE_FIELDS": "kapos:categories:group_labels:update_fields",
-		"UPDATE_PACKAGE": "kapos:categories:group_labels:update_package",
-		"FIND_PRODUCT": "kapos:categories:group_labels:find_product",
-		"DOWNLOAD": "kapos:categories:group_labels:download",
-		"UPLOAD": "kapos:categories:group_labels:upload"
-	}
+    "LIST": "kapos:categories:group_labels:list",
+    "CREATE": "kapos:categories:group_labels:create",
+    "UPDATE": "kapos:categories:group_labels:update",
+    "DELETE": "kapos:categories:group_labels:delete",
+    "VIEW": "kapos:categories:group_labels:view",
+    "FIND_PRODUCT": "kapos:categories:group_labels:find_product",
+    "DOWNLOAD": "kapos:categories:group_labels:download",
+    "UPLOAD": "kapos:categories:group_labels:upload"
+  },
+  "PRODUCTS": {
+    "LIST": "kapos:categories:products:list",
+    "CREATE": "kapos:categories:products:create",
+    "UPDATE": "kapos:categories:products:update",
+    "DELETE": "kapos:categories:products:delete",
+    "VIEW": "kapos:categories:products:view",
+    "FIND_PRODUCT": "kapos:categories:products:find_product",
+    "DOWNLOAD": "kapos:categories:products:download",
+    "UPLOAD": "kapos:categories:products:upload"
+  },
+  "PRODUCT_SETTINGS": {
+    "LIST": "kapos:categories:product_settings:list",
+    "CREATE": "kapos:categories:product_settings:create",
+    "UPDATE": "kapos:categories:product_settings:update",
+    "DELETE": "kapos:categories:product_settings:delete",
+    "VIEW": "kapos:categories:product_settings:view",
+    "ADD_TAG": "kapos:categories:product_settings:add_tag",
+    "REMOVE_TAG": "kapos:categories:product_settings:remove_tag",
+    "ADD_ATTRIBUTE": "kapos:categories:product_settings:add_attribute",
+    "UPDATE_ATTRIBUTE": "kapos:categories:product_settings:update_attribute",
+    "REMOVE_ATTRIBUTE": "kapos:categories:product_settings:remove_attribute",
+    "UPDATE_TAX": "kapos:categories:product_settings:update_tax",
+    "UPDATE_FIELDS": "kapos:categories:product_settings:update_fields",
+    "UPDATE_PACKAGE": "kapos:categories:product_settings:update_package",
+    "FIND_PRODUCT": "kapos:categories:product_settings:find_product",
+    "DOWNLOAD": "kapos:categories:product_settings:download",
+    "UPLOAD": "kapos:categories:product_settings:upload"
+  },
+  "WAREHOUSE_STOCKTAKING": {
+    "LIST": "kapos:warehouses:stocktakings:list",
+    "CREATE": "kapos:warehouses:stocktakings:create",
+    "UPDATE": "kapos:warehouses:stocktakings:update",
+    "DELETE": "kapos:warehouses:stocktakings:delete",
+    "VIEW": "kapos:warehouses:stocktakings:view"
+  },
+  "WAREHOUSE_MANAGEMENT": {
+    "LIST": "kapos:warehouses:managements:list",
+    "CREATE": "kapos:warehouses:managements:create",
+    "UPDATE": "kapos:warehouses:managements:update",
+    "DELETE": "kapos:warehouses:managements:delete",
+    "VIEW": "kapos:warehouses:managements:view"
+  },
+  "WAREHOUSE_LEVEL": {
+    "LIST": "kapos:warehouses:levels:list",
+    "CREATE": "kapos:warehouses:levels:create",
+    "UPDATE": "kapos:warehouses:levels:update",
+    "DELETE": "kapos:warehouses:levels:delete",
+    "VIEW": "kapos:warehouses:levels:view"
+  },
+  "WAREHOUSE_LIST": {
+    "LIST": "kapos:warehouses:list:list",
+    "CREATE": "kapos:warehouses:list:create",
+    "UPDATE": "kapos:warehouses:list:update",
+    "DELETE": "kapos:warehouses:list:delete",
+    "VIEW": "kapos:warehouses:list:view"
+  },
+  "WAREHOUSE_PALLET": {
+    "LIST": "kapos:warehouses:pallets:list",
+    "CREATE": "kapos:warehouses:pallets:create",
+    "UPDATE": "kapos:warehouses:pallets:update",
+    "DELETE": "kapos:warehouses:pallets:delete",
+    "VIEW": "kapos:warehouses:pallets:view"
+  },
+  "WAREHOUSE_BASKET": {
+    "LIST": "kapos:warehouses:baskets:list",
+    "CREATE": "kapos:warehouses:baskets:create",
+    "UPDATE": "kapos:warehouses:baskets:update",
+    "DELETE": "kapos:warehouses:baskets:delete",
+    "VIEW": "kapos:warehouses:baskets:view"
+  },
+  "WAREHOUSE_RACK": {
+    "LIST": "kapos:warehouses:racks:list",
+    "CREATE": "kapos:warehouses:racks:create",
+    "UPDATE": "kapos:warehouses:racks:update",
+    "DELETE": "kapos:warehouses:racks:delete",
+    "VIEW": "kapos:warehouses:racks:view"
+  },
+  "WAREHOUSE_ZONE": {
+    "LIST": "kapos:warehouses:zones:list",
+    "CREATE": "kapos:warehouses:zones:create",
+    "UPDATE": "kapos:warehouses:zones:update",
+    "DELETE": "kapos:warehouses:zones:delete",
+    "VIEW": "kapos:warehouses:zones:view"
+  }
 }
