@@ -450,6 +450,8 @@
   "SVC_COMMON_ITEM_CODE": {
     "NAME": "common-svc.item-code",
     "ACTIONS": {
+      "ACTION_DETAIL": "getDetail",
+       "ACTION_UPDATE": "update",
       "ACTION_GET_ITEM_CODE": "getItemCode",
       "ACTION_GENERATE_CODE": "generateCode"
     }
