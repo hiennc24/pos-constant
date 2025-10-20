@@ -173,6 +173,49 @@ const COLLECTIONS = {
 
   ORDER_INVENTORY_TRANSACTION_COLLECTION_NAME: "orderInventoryTransaction",
   ORDER_INVENTORY_TRANSACTION_REPOSITORY_NAME: "order_inventory_transactions",
+  WAREHOUSE_SETTING_REPOSITORY_NAME: "warehouse_setting",
+  WAREHOUSE_SETTING_COLLECTION_NAME: "warehouse_settings",
+
+  WAREHOUSE_MANAGEMENT_REPOSITORY_NAME: "warehouse_management",
+  WAREHOUSE_MANAGEMENT_COLLECTION_NAME: "warehouse_managements",
+
+  WAREHOUSE_PRODUCT_REPOSITORY_NAME: "warehouse_product",
+  WAREHOUSE_PRODUCT_COLLECTION_NAME: "warehouse_products",
+
+  WAREHOUSE_STOCKTAKING_PRODUCT_REPOSITORY_NAME:
+    "warehouse_stocktaking_product",
+  WAREHOUSE_STOCKTAKING_PRODUCT_COLLECTION_NAME:
+    "warehouse_stocktaking_products",
+
+  WAREHOUSE_STOCKTAKING_REPOSITORY_NAME: "warehouse_stocktaking",
+  WAREHOUSE_STOCKTAKING_COLLECTION_NAME: "warehouse_stocktakings",
+
+  PRODUCT_VARIANT_REPOSITORY_NAME: "product_variant",
+  PRODUCT_VARIANT_COLLECTION_NAME: "product_variants",
+
+  WAREHOUSE_VOUCHER_PRODUCT_REPOSITORY_NAME: "warehouse_voucher_product",
+  WAREHOUSE_VOUCHER_PRODUCT_COLLECTION_NAME: "warehouse_voucher_products",
+
+  WAREHOUSE_VOUCHER_REPOSITORY_NAME: "warehouse_voucher",
+  WAREHOUSE_VOUCHER_COLLECTION_NAME: "warehouse_vouchers",
+
+  WAREHOUSE_BASKET_REPOSITORY_NAME: "warehouse_basket",
+  WAREHOUSE_BASKET_COLLECTION_NAME: "warehouse_baskets",
+
+  WAREHOUSE_LEVEL_COLLECTION_NAME: "warehouse_levels",
+  WAREHOUSE_LEVEL_REPOSITORY_NAME: "warehouse_level",
+
+  WAREHOUSE_PALLET_REPOSITORY_NAME: "warehouse_pallet",
+  WAREHOUSE_PALLET_COLLECTION_NAME: "warehouse_pallets",
+
+  WAREHOUSE_RACK_REPOSITORY_NAME: "warehouse_rack",
+  WAREHOUSE_RACK_COLLECTION_NAME: "warehouse_racks",
+
+  WAREHOUSE_ZONE_REPOSITORY_NAME: "warehouse_zone",
+  WAREHOUSE_ZONE_COLLECTION_NAME: "warehouse_zones",
+
+  WAREHOUSE_LIST_REPOSITORY_NAME: "warehouse_list",
+  WAREHOUSE_LIST_COLLECTION_NAME: "warehouse_lists",
 };
 
 export default COLLECTIONS;

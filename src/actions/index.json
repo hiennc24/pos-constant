@@ -566,7 +566,8 @@
       "ACTION_DELETE_MANY": "deleteMany",
       "ACTION_UPDATE_STATUS": "updateStatus",
       "ACTION_GET_INVENTORY_REPORTS": "getInventoryReport",
-      "ACTION_GET_PRODUCT_PRICE_COST": "getProductPriceCost"
+      "ACTION_GET_PRODUCT_PRICE_COST": "getProductPriceCost",
+      "ACTION_CREATE_INVENTORY_TRANSACTION": "createInventoryTransaction"
     }
   },
   "SVC_ORDER_INVENTORY": {
@@ -597,6 +598,165 @@
       "ACTION_UPDATE": "update",
       "ACTION_GET_ORDER_INVENTORY_REPORTS": "getOrderInventoryReport",
       "ACTION_GET_PRODUCT_PRICE_COST": "getProductPriceCost"
+    }
+  },
+  "SVC_WAREHOUSE_STOCKTAKING_PRODUCT": {
+    "NAME": "warehouse-svc.stocktaking_products",
+    "ACTIONS": {
+      "ACTION_LIST": "getList"
+    }
+  },
+  "SVC_WAREHOUSE_VOUCHER_PRODUCTS": {
+    "NAME": "warehouse-svc.voucher_products",
+    "ACTIONS": {
+      "ACTION_LIST": "getList"
+    }
+  },
+  "SVC_WAREHOUSE_VOUCHER": {
+    "NAME": "warehouse-svc.voucher_products",
+    "ACTIONS": {
+      "ACTION_CREATE": "create",
+      "ACTION_UPDATE": "update",
+      "ACTION_DELETE": "delete",
+      "ACTION_APPROVE": "approve",
+      "ACTION_COMPLETE": "complete",
+      "ACTION_UPDATE_PROCESS": "updateProcess",
+      "ACTION_LIST": "getList",
+      "ACTION_DETAIL": "getDetail"
+    }
+  },
+  "SVC_WAREHOUSE_MANAGEMENT": {
+    "NAME": "warehouse-svc.managements",
+    "ACTIONS": {
+      "ACTION_LIST": "getList",
+      "ACTION_UPDATE_PRODUCT_QUANTITY": "updateProductQuantity",
+      "ACTION_UPDATE_PRODUCT_RESERVED_OR_INCOMING": "updateProductReservedOrIncoming"
+    }
+  },
+  "SVC_WAREHOUSE_PERMISSION": {
+    "NAME": "warehouse-svc.permissions",
+    "ACTIONS": {
+      "ACTION_LIST": "getList",
+      "ACTION_GET_PERMISSION_ACTIONS": "getPermissionActions"
+    }
+  },
+  "SVC_WAREHOUSE_SETTINGS": {
+    "NAME": "warehouse-svc.settings",
+    "ACTIONS": {
+      "ACTION_UPDATE": "update",
+      "ACTION_CREATE": "create",
+      "ACTION_DELETE": "delete",
+      "ACTION_LIST": "getList",
+      "ACTION_GET_MASTER_DATA": "getMasterData"
+    }
+  },
+  "SVC_WAREHOUSE_STOCKTAKING": {
+    "NAME": "warehouse-svc.stocktakings",
+    "ACTIONS": {
+      "ACTION_DETAIL": "getDetail",
+      "ACTION_DELETE": "delete",
+      "ACTION_CREATE": "create",
+      "ACTION_UPDATE": "update",
+      "ACTION_LIST": "getList",
+      "ACTION_UPDATE_MANY": "updateMany",
+      "ACTION_DELETE_MANY": "deleteMany",
+      "ACTION_UPDATE_STATUS": "updateStatus"
+    }
+  },
+  "SVC_WAREHOUSE_BASKET": {
+    "NAME": "warehouse-svc.baskets",
+    "ACTIONS": {
+      "ACTION_DETAIL": "getDetail",
+      "ACTION_DELETE": "delete",
+      "ACTION_CREATE": "create",
+      "ACTION_UPDATE": "update",
+      "ACTION_LIST": "getList",
+      "ACTION_UPDATE_MANY": "updateMany",
+      "ACTION_DELETE_MANY": "deleteMany",
+      "ACTION_UPDATE_STATUS": "updateStatus"
+    }
+  },
+  "SVC_WAREHOUSE_LEVEL": {
+    "NAME": "warehouse-svc.levels",
+    "ACTIONS": {
+      "ACTION_DETAIL": "getDetail",
+      "ACTION_DELETE": "delete",
+      "ACTION_CREATE": "create",
+      "ACTION_UPDATE": "update",
+      "ACTION_LIST": "getList",
+      "ACTION_UPDATE_MANY": "updateMany",
+      "ACTION_DELETE_MANY": "deleteMany",
+      "ACTION_UPDATE_STATUS": "updateStatus"
+    }
+  },
+  "SVC_WAREHOUSE_LIST": {
+    "NAME": "warehouse-svc.lists",
+    "ACTIONS": {
+      "ACTION_DETAIL": "getDetail",
+      "ACTION_DELETE": "delete",
+      "ACTION_CREATE": "create",
+      "ACTION_UPDATE": "update",
+      "ACTION_LIST": "getList",
+      "ACTION_UPDATE_MANY": "updateMany",
+      "ACTION_DELETE_MANY": "deleteMany",
+      "ACTION_UPDATE_STATUS": "updateStatus"
+    }
+  },
+  "SVC_WAREHOUSE_PALLET": {
+    "NAME": "warehouse-svc.pallets",
+    "ACTIONS": {
+      "ACTION_DETAIL": "getDetail",
+      "ACTION_DELETE": "delete",
+      "ACTION_CREATE": "create",
+      "ACTION_UPDATE": "update",
+      "ACTION_LIST": "getList",
+      "ACTION_UPDATE_MANY": "updateMany",
+      "ACTION_DELETE_MANY": "deleteMany",
+      "ACTION_UPDATE_STATUS": "updateStatus"
+    }
+  },
+  "SVC_WAREHOUSE_RACK": {
+    "NAME": "warehouse-svc.racks",
+    "ACTIONS": {
+      "ACTION_DETAIL": "getDetail",
+      "ACTION_DELETE": "delete",
+      "ACTION_CREATE": "create",
+      "ACTION_UPDATE": "update",
+      "ACTION_LIST": "getList",
+      "ACTION_UPDATE_MANY": "updateMany",
+      "ACTION_DELETE_MANY": "deleteMany",
+      "ACTION_UPDATE_STATUS": "updateStatus"
+    }
+  },
+  "SVC_WAREHOUSE_ZONE": {
+    "NAME": "warehouse-svc.zones",
+    "ACTIONS": {
+      "ACTION_DETAIL": "getDetail",
+      "ACTION_DELETE": "delete",
+      "ACTION_CREATE": "create",
+      "ACTION_UPDATE": "update",
+      "ACTION_LIST": "getList",
+      "ACTION_UPDATE_MANY": "updateMany",
+      "ACTION_DELETE_MANY": "deleteMany",
+      "ACTION_UPDATE_STATUS": "updateStatus"
+    }
+  },
+  "SVC_PURCHASE_ORDER_PRODUCT": {
+    "NAME": "purcharse-svc.order_products",
+    "ACTIONS": {
+      "ACTION_LIST": "getList"
+    }
+  },
+  "SVC_SALES_SETTING": {
+    "NAME": "sale-svc.settings",
+    "ACTIONS": {
+      "ACTION_LIST": "getList"
+    }
+  },
+  "SVC_SALES_ORDER_PRODUCT": {
+    "NAME": "sale-svc.order_products",
+    "ACTIONS": {
+      "ACTION_LIST": "getList"
     }
   }
 }
