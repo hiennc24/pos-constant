@@ -532,5 +532,5 @@
     "DELETE": "kapos:debts:delete",
     "COPY": "kapos:debts:copy",
     "UPDATE_STATUS": "kapos:debts:update_status"
-  },
+  }
 }
