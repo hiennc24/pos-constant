@@ -219,6 +219,54 @@ const COLLECTIONS = {
 
   ORDERS_REPOSITORY_NAME: "order",
   ORDERS_COLLECTION_NAME: "orders",
+
+  DEBT_HISTORIES_REPOSITORY_NAME: "debt_histories",
+  DEBT_HISTORIES_COLLECTION_NAME: "debt_histories",
+
+  DEBT_TRANSACTIONS_REPOSITORY_NAME: "debt_transactions",
+  DEBT_TRANSACTIONS_COLLECTION_NAME: "debt_transactions",
+
+  DEBTS_REPOSITORY_NAME: "debts",
+  DEBTS_COLLECTION_NAME: "debts",
+
+  DEBT_PERIOD_REPOSITORY_NAME: "debt_periods",
+  DEBT_PERIOD_COLLECTION_NAME: "debt_periods",
+
+  WAREHOUSE_TYPE_REPOSITORY_NAME: "warehouseType",
+  WAREHOUSE_TYPE_COLLECTION_NAME: "warehouse_types",
+
+  CONTRACT_LISTS_COLLECTION_NAME: "contract_lists",
+  CONTRACT_LISTS_REPOSITORY_NAME: "contract_lists",
+
+  TENANT_USER_REPOSITORY_NAME: "tenant_user",
+  TENANT_USER_COLLECTION_NAME: "tenant_users",
+
+  ORDER_REPOSITORY_NAME: "orders",
+  ORDER_COLLECTION_NAME: "orders",
+
+  ORDER_PRODUCTS_REPOSITORY_NAME: "order_products",
+  ORDER_PRODUCTS_COLLECTION_NAME: "order_products",
+
+  ORDERS_DETAIL_REPOSITORY_NAME: "orders_detail",
+  ORDERS_DETAIL_COLLECTION_NAME: "orders_detail",
+
+  INVOICES_REPOSITORY_NAME: "invoices",
+  INVOICES_COLLECTION_NAME: "invoices",
+
+  ORDERS_HISTORY_REPOSITORY_NAME: "orders_history",
+  ORDERS_HISTORY_COLLECTION_NAME: "orders_history",
+
+  PROMOTION_REPOSITORY_NAME: "promotions",
+  PROMOTION_COLLECTION_NAME: "promotions",
+
+  VENDOR_CONFIRM_REPOSITORY_NAME: "vendor_confirms",
+  VENDOR_CONFIRM_COLLECTION_NAME: "vendor_confirms",
+
+  LEAD_ITEM_REPOSITORY_NAME: "lead_items",
+  LEAD_ITEM_COLLECTION_NAME: "lead_items",
+
+  CAMPAIGN_PRICE_REPOSITORY_NAME: "campaign_prices",
+  CAMPAIGN_PRICE_COLLECTION_NAME: "campaign_prices",
 };
 
 export default COLLECTIONS;
