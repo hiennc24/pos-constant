@@ -761,5 +761,92 @@
     "ACTIONS": {
       "ACTION_LIST": "getList"
     }
-  }
+  },
+
+  "SVC_ORDERS": {
+		"NAME": "order-svc.orders",
+		"ACTION_LIST": "getList",
+		"ACTION_DETAIL": "getDetail",
+		"ACTION_CREATE": "create",
+		"ACTION_UPDATE": "update",
+		"ACTION_DELETE": "delete",
+		"ACTION_UPDATE_STATUS": "update-status",
+		"ACTION_GET_ORDER_PRODUCT_LIST": "get-order-product-list",
+		"ACTION_GET_SALES_ORDERS_BY_CUSTOMER_ID": "get-sales-orders-by-customer-id",
+		"ACTION_UPDATE_SALE_ORDER_PAYMENT": "update-sale-order-payment"
+	},
+	"SVC_VOUCHERS": {
+		"NAME": "order-svc.vouchers",
+		"ACTION_LIST": "getList",
+		"ACTION_DETAIL": "getDetail",
+		"ACTION_CREATE": "create",
+		"ACTION_UPDATE": "update",
+		"ACTION_DELETE": "delete"
+	},
+	"SVC_DEBTS": {
+		"NAME": "order-svc.debts",
+		"ACTION_LIST": "getList",
+		"ACTION_DETAIL": "getDetail",
+		"ACTION_CREATE": "create",
+		"ACTION_UPDATE": "update",
+		"ACTION_DELETE": "delete",
+		"ACTION_GENERATE_CODE": "generate-code",
+		"ACTION_LIST_BY_CUSTOMER": "getList-by-customer"
+	},
+	"SVC_DEBT_HISTORIES": {
+		"NAME": "order-svc.debt_histories",
+		"ACTION_CREATE_HISTORY": "create-history"
+	},
+	"SVC_DEBT_TRANSACTIONS": {
+		"NAME": "order-svc.debt_transactions",
+		"ACTION_LIST": "getList",
+		"ACTION_DETAIL": "getDetail",
+
+		"ACTION_CREATE": "create",
+		"ACTION_UPDATE": "update",
+		"ACTION_DELETE": "delete",
+		"ACTION_UPDATE_STATUS": "update-status",
+		"ACTION_GENERATE_CODE": "generate-code"
+	},
+	"SVC_DEBT_PERIODS": {
+		"NAME": "order-svc.debt_periods",
+		"ACTION_LIST": "getList",
+		"ACTION_DETAIL": "getDetail",
+		"ACTION_CREATE": "create",
+		"ACTION_UPDATE": "update",
+		"ACTION_DELETE": "delete"
+	},
+	"SVC_SALES_ORDER_HISTORIES": {
+		"NAME": "sales-order-histories",
+		"ACTION_LIST": "getList",
+		"ACTION_DETAIL": "getDetail",
+		"ACTION_CREATE": "create",
+		"ACTION_UPDATE": "update",
+		"ACTION_DELETE": "delete"
+	},
+	"SVC_ORDER_DETAILS": {
+		"NAME": "order-svc.order_details",
+		"ACTION_LIST": "getList",
+		"ACTION_DETAIL": "getDetail",
+		"ACTION_CREATE": "create",
+		"ACTION_UPDATE": "update",
+		"ACTION_DELETE": "delete"
+	},
+	"SVC_ORDER_PRODUCTS": {
+		"NAME": "order-svc.order_products",
+		"ACTION_LIST": "getList",
+		"ACTION_DETAIL": "getDetail",
+		"ACTION_CREATE": "create",
+		"ACTION_UPDATE": "update",
+		"ACTION_DELETE": "delete",
+		"ACTION_CREATE_HOLDING_QTY": "create-holding-qty"
+	},
+	"SVC_INVOICES": {
+		"NAME": "invoices",
+		"ACTION_LIST": "getList",
+		"ACTION_DETAIL": "getDetail",
+		"ACTION_CREATE": "create",
+		"ACTION_UPDATE": "update",
+		"ACTION_DELETE": "delete"
+	}
 }

@@ -514,5 +514,23 @@
     "UPDATE": "kapos:warehouses:zones:update",
     "DELETE": "kapos:warehouses:zones:delete",
     "VIEW": "kapos:warehouses:zones:view"
-  }
+  },
+  "ORDERS": {
+    "CREATE": "kapos:orders:create",
+    "LIST": "kapos:orders:list",
+    "READ": "kapos:orders:read",
+    "UPDATE": "kapos:orders:update",
+    "DELETE": "kapos:orders:delete",
+    "COPY": "kapos:orders:copy",
+    "UPDATE_STATUS": "kapos:orders:update_status"
+  },
+  "DEBTS": {
+    "CREATE": "kapos:debts:create",
+    "LIST": "kapos:debts:list",
+    "READ": "kapos:debts:read",
+    "UPDATE": "kapos:debts:update",
+    "DELETE": "kapos:debts:delete",
+    "COPY": "kapos:debts:copy",
+    "UPDATE_STATUS": "kapos:debts:update_status"
+  },
 }
