@@ -216,6 +216,9 @@ const COLLECTIONS = {
 
   WAREHOUSE_LIST_REPOSITORY_NAME: "warehouse_list",
   WAREHOUSE_LIST_COLLECTION_NAME: "warehouse_lists",
+
+  ORDERS_REPOSITORY_NAME: "order",
+  ORDERS_COLLECTION_NAME: "orders",
 };
 
 export default COLLECTIONS;
