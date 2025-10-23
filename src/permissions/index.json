@@ -532,5 +532,83 @@
     "DELETE": "kapos:debts:delete",
     "COPY": "kapos:debts:copy",
     "UPDATE_STATUS": "kapos:debts:update_status"
-  }
+  },
+  
+	"DEBT_TRANSACTIONS": {
+		"LIST": "kapos:debt_transactions:list",
+		"CREATE": "kapos:debt_transactions:create",
+		"UPDATE": "kapos:debt_transactions:update",
+		"DELETE": "kapos:debt_transactions:delete",
+		"VIEW": "kapos:debt_transactions:view"
+	},
+	"DEBT_PERIODS": {
+		"LIST": "kapos:debt_periods:list",
+		"CREATE": "kapos:debt_periods:create",
+		"UPDATE": "kapos:debt_periods:update",
+		"DELETE": "kapos:debt_periods:delete",
+		"VIEW": "kapos:debt_periods:view"
+	},
+	"DEBT_TRANSACTIONS_HISTORIES": {
+		"LIST": "kapos:debt_transactions_histories:list",
+		"CREATE": "kapos:debt_transactions_histories:create",
+		"UPDATE": "kapos:debt_transactions_histories:update",
+		"DELETE": "kapos:debt_transactions_histories:delete",
+		"VIEW": "kapos:debt_transactions_histories:view"
+	},
+	"DELIVERY_HISTORIES": {
+		"LIST": "kapos:delivery_histories:list",
+		"CREATE": "kapos:delivery_histories:create",
+		"UPDATE": "kapos:delivery_histories:update",
+		"DELETE": "kapos:delivery_histories:delete",
+		"VIEW": "kapos:delivery_histories:view"
+	},
+	"DELIVERY_ORDERS": {
+		"LIST": "kapos:delivery_orders:list",
+		"CREATE": "kapos:delivery_orders:create",
+		"UPDATE": "kapos:delivery_orders:update",
+		"DELETE": "kapos:delivery_orders:delete",
+		"VIEW": "kapos:delivery_orders:view"
+	},
+	"DELIVERY_PRODUCTS" : {
+		"LIST": "kapos:delivery_products:list",
+		"CREATE": "kapos:delivery_products:create",
+		"UPDATE": "kapos:delivery_products:update",
+		"DELETE": "kapos:delivery_products:delete",
+		"VIEW": "kapos:delivery_products:view"
+	},
+	"LEADS": {
+		"LIST": "kapos:leads:list",
+		"CREATE": "kapos:leads:create",
+		"UPDATE": "kapos:leads:update",
+		"DELETE": "kapos:leads:delete",
+		"VIEW": "kapos:leads:view"
+	},
+	"ORDER": {
+		"LIST": "kapos:orders:list",
+		"CREATE": "kapos:orders:create",
+		"UPDATE": "kapos:orders:update",
+		"DELETE": "kapos:orders:delete",
+		"VIEW": "kapos:orders:view"
+	},
+	"ORDER_PRODUCTS": {
+		"LIST": "kapos:order_products:list",
+		"CREATE": "kapos:order_products:create",
+		"UPDATE": "kapos:order_products:update",
+		"DELETE": "kapos:order_products:delete",
+		"VIEW": "kapos:order_products:view"
+	},
+	"ORDER_DETAILS" : {
+		"LIST": "kapos:order_details:list",
+		"CREATE": "kapos:order_details:create",
+		"UPDATE": "kapos:order_details:update",
+		"DELETE": "kapos:order_details:delete",
+		"VIEW": "kapos:order_details:view"
+	},
+	"ORDER_HISTORIES": {
+		"LIST": "kapos:order_histories:list",
+		"CREATE": "kapos:order_histories:create",
+		"UPDATE": "kapos:order_histories:update",
+		"DELETE": "kapos:order_histories:delete",
+		"VIEW": "kapos:order_histories:view"
+	}
 }
