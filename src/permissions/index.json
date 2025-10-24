@@ -610,5 +610,12 @@
 		"UPDATE": "kapos:order_histories:update",
 		"DELETE": "kapos:order_histories:delete",
 		"VIEW": "kapos:order_histories:view"
+	},
+  	"WAREHOUSE_VOUCHER": {
+		"LIST": "kapos:warehouses:vouchers:list",
+		"CREATE": "kapos:warehouses:vouchers:create",
+		"UPDATE": "kapos:warehouses:vouchers:update",
+		"DELETE": "kapos:warehouses:vouchers:delete",
+		"VIEW": "kapos:warehouses:vouchers:view"
 	}
 }
