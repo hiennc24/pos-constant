@@ -606,9 +606,11 @@
 	},
   "VOUCHERS": {
 		"LIST": "kapos:warehouses:vouchers:list",
+		"CREATE": "kapos:warehouses:vouchers:create",
 		"READ": "kapos:warehouses:vouchers:read",
 		"VIEW": "kapos:warehouses:vouchers:view",
 		"UPDATE": "kapos:warehouses:vouchers:update",
+		"UPDATE_MANY": "kapos:warehouses:vouchers:update_many",
 		"UPDATE_STATUS": "kapos:warehouses:vouchers:update_status",
 		"DELETE": "kapos:warehouses:vouchers:delete",
 		"DELETE_MANY": "kapos:warehouses:vouchers:delete_many",
