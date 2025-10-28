@@ -611,21 +611,14 @@
 		"DELETE": "kapos:order_histories:delete",
 		"VIEW": "kapos:order_histories:view"
 	},
-  	"WAREHOUSE_VOUCHER": {
+  "VOUCHER": {
 		"LIST": "kapos:warehouses:vouchers:list",
-		"CREATE": "kapos:warehouses:vouchers:create",
+		"READ": "kapos:warehouses:vouchers:read",
+		"VIEW": "kapos:warehouses:vouchers:view",
 		"UPDATE": "kapos:warehouses:vouchers:update",
+		"UPDATE_STATUS": "kapos:warehouses:vouchers:update_status",
 		"DELETE": "kapos:warehouses:vouchers:delete",
-		"VIEW": "kapos:warehouses:vouchers:view"
-	},
-  	"order_VOUCHER": {
-		"LIST": "kapos:orders:vouchers:list",
-		"READ": "kapos:orders:vouchers:read",
-		"VIEW": "kapos:orders:vouchers:view",
-		"UPDATE": "kapos:orders:vouchers:update",
-		"UPDATE_STATUS": "kapos:orders:vouchers:update_status",
-		"DELETE": "kapos:orders:vouchers:delete",
-		"DELETE_MANY": "kapos:orders:vouchers:delete_many",
-		"LOCK": "kapos:orders:vouchers:list"
+		"DELETE_MANY": "kapos:warehouses:vouchers:delete_many",
+		"LOCK": "kapos:warehouses:vouchers:list"
 	}
 }
