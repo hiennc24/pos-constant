@@ -784,7 +784,12 @@
 		  "ACTION_DETAIL": "getDetail",
       "ACTION_CREATE": "create",
       "ACTION_UPDATE": "update",
-      "ACTION_DELETE": "delete"
+      "ACTION_DELETE": "delete",
+      "ACTION_UPDATE_STATUS": "updateStatus",
+      "ACTION_UPDATE_STATUS_MANY": "updateStatusMany",
+      "ACTION_DELETE_MANY": "deleteMany",
+      "ACTION_LOCK": "lock",
+      "ACTION_UNLOCK": "unlock"
     }
 	},
 	"SVC_DEBTS": {

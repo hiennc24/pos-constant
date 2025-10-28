@@ -267,6 +267,21 @@ const COLLECTIONS = {
 
   CAMPAIGN_PRICE_REPOSITORY_NAME: "campaign_prices",
   CAMPAIGN_PRICE_COLLECTION_NAME: "campaign_prices",
+
+  DELIVERY_HISTORY_COLLECTION_NAME: "deliveryHistory",
+  DELIVERY_HISTORY_REPOSITORY_NAME: "delivery_histories",
+
+  DELIVERY_ORDER_REPOSITORY_NAME: "deliveryOrder",
+  DELIVERY_ORDER_COLLECTION_NAME: "delivery_orders",
+
+  DELIVERY_PRODUCT_REPOSITORY_NAME: "deliveryProduct",
+  DELIVERY_PRODUCT_COLLECTION_NAME: "delivery_products",
+
+  VOUCHER_REPOSITORY_NAME: "voucher",
+  VOUCHER_COLLECTION_NAME: "vouchers",
+
+  VOUCHER_PRODUCT_REPOSITORY_NAME: "voucherProduct",
+  VOUCHER_PRODUCT_COLLECTION_NAME: "voucher_products",
 };
 
 export default COLLECTIONS;
