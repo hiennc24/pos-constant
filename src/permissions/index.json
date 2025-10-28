@@ -617,5 +617,15 @@
 		"UPDATE": "kapos:warehouses:vouchers:update",
 		"DELETE": "kapos:warehouses:vouchers:delete",
 		"VIEW": "kapos:warehouses:vouchers:view"
+	},
+  	"order_VOUCHER": {
+		"LIST": "kapos:orders:vouchers:list",
+		"READ": "kapos:orders:vouchers:read",
+		"VIEW": "kapos:orders:vouchers:view",
+		"UPDATE": "kapos:orders:vouchers:update",
+		"UPDATE_STATUS": "kapos:orders:vouchers:update_status",
+		"DELETE": "kapos:orders:vouchers:delete",
+		"DELETE_MANY": "kapos:orders:vouchers:delete_many",
+		"LOCK": "kapos:orders:vouchers:list"
 	}
 }

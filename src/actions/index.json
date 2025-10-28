@@ -912,5 +912,20 @@
       "ACTION_LIST": "list",
       "ACTION_DETAIL": "detail"
     }
-	}
+	},
+  "SVC_ORDER_VOUCHERS": {
+    "NAME": "svc-order.vouchers",
+    "ACTIONS": {
+      "ACTION_LIST": "getList",
+      "ACTION_DETAIL": "getDetail",
+      "ACTION_UPDATE": "update",
+      "ACTION_UPDATE_STATUS": "updateStatus",
+      "ACTION_UPDATE_STATUS_MANY": "updateStatusMany",
+      "ACTION_CREATE": "create",
+      "ACTION_DELETE": "delete",
+      "ACTION_DELETE_MANY": "deleteMany",
+      "ACTION_LOCK": "lock",
+      "ACTION_UNLOCK": "unlock"
+    }
+  }
 }
