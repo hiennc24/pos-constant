@@ -774,7 +774,8 @@
       "ACTION_UPDATE_STATUS": "update-status",
       "ACTION_GET_ORDER_PRODUCT_LIST": "get-order-product-list",
       "ACTION_GET_SALES_ORDERS_BY_CUSTOMER_ID": "get-sales-orders-by-customer-id",
-      "ACTION_UPDATE_SALE_ORDER_PAYMENT": "update-sale-order-payment"
+      "ACTION_UPDATE_SALE_ORDER_PAYMENT": "update-sale-order-payment",
+      "ACTION_LOCK_UNLOCK": "lockUnlock"
     }
 	},
 	"SVC_VOUCHERS": {
